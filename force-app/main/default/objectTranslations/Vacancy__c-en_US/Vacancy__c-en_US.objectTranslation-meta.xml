@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vacancy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vacancies</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Candidate must be Hired first. --></errorMessage>
+        <name>Allowed_only_HIRED_candidates</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Cancel --></label>
+        <name>Cancel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Cancel_list --></label>
+        <name>Cancel_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close --></label>
+        <name>Close</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close_List --></label>
+        <name>Close_List</name>
+    </webLinks>
+</CustomObjectTranslation>

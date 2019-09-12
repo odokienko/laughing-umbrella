@@ -1,0 +1,70 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-09-02T10:02:58.000Z",
+      "fileName": "flowDefinitions/New_Vacancy.flowDefinition",
+      "fullName": "New_Vacancy",
+      "id": "3002o000000btrHAAQ",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-10T11:25:27.000Z",
+      "manageableState": "unmanaged",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-09-04T22:12:35.000Z",
+      "fileName": "flowDefinitions/Hire_Candidate.flowDefinition",
+      "fullName": "Hire_Candidate",
+      "id": "3002o000000buAiAAI",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-11T00:07:11.000Z",
+      "manageableState": "unmanaged",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-09-02T13:57:15.000Z",
+      "fileName": "flowDefinitions/Cancel_Vacancy.flowDefinition",
+      "fullName": "Cancel_Vacancy",
+      "id": "3002o000000bttDAAQ",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-09T16:05:08.000Z",
+      "manageableState": "unmanaged",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-09-04T20:45:40.000Z",
+      "fileName": "flowDefinitions/Screen_Close_Vacancy.flowDefinition",
+      "fullName": "Screen_Close_Vacancy",
+      "id": "3002o000000buAJAAY",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-10T11:21:54.000Z",
+      "manageableState": "unmanaged",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-09-04T13:15:06.000Z",
+      "fileName": "flowDefinitions/Candidate_Process.flowDefinition",
+      "fullName": "Candidate_Process",
+      "id": "3002o000000bu8cAAA",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-04T13:18:39.000Z",
+      "manageableState": "unmanaged",
+      "type": "FlowDefinition"
+    }
+  ]
+}

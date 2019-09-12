@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0052o000008wdskAAA",
+    "createdByName": "Yevgen Odokiienko",
+    "createdDate": "2019-09-06T11:35:47.000Z",
+    "fileName": "permissionsets/Assigned_Recruiter.permissionset",
+    "fullName": "Assigned_Recruiter",
+    "id": "0PS2o000000kkU2GAI",
+    "lastModifiedById": "0052o000008wdskAAA",
+    "lastModifiedByName": "Yevgen Odokiienko",
+    "lastModifiedDate": "2019-09-06T11:35:47.000Z",
+    "manageableState": "unmanaged",
+    "type": "PermissionSet"
+  }
+}

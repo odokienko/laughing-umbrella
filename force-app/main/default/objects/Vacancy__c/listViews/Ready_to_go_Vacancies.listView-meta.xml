@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ready_to_go_Vacancies</fullName>
+    <columns>NAME</columns>
+    <columns>Title__c</columns>
+    <columns>Description__c</columns>
+    <columns>Number_Of_Candidates__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Number_Of_Candidates__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>In-Process</value>
+    </filters>
+    <label>Ready to go Vacancies</label>
+    <sharedTo>
+        <role>Manager</role>
+    </sharedTo>
+</ListView>

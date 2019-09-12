@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0052o000008wdskAAA",
+    "createdByName": "Yevgen Odokiienko",
+    "createdDate": "2019-08-08T13:43:15.000Z",
+    "fileName": "homePageLayouts/DE Default.homePageLayout",
+    "fullName": "DE Default",
+    "id": "02T2o000000UBGREA4",
+    "lastModifiedById": "0052o000008wdskAAA",
+    "lastModifiedByName": "Yevgen Odokiienko",
+    "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+    "manageableState": "unmanaged",
+    "type": "HomePageLayout"
+  }
+}

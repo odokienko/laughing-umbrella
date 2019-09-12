@@ -1,0 +1,61 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T13:43:15.000Z",
+      "fileName": "staticresources/th_con_app__thBoldotf.resource",
+      "fullName": "th_con_app__thBoldotf",
+      "id": "0812o000000O7lWAAS",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "th_con_app",
+      "type": "StaticResource"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T13:43:15.000Z",
+      "fileName": "staticresources/th_con_app__thBackground.resource",
+      "fullName": "th_con_app__thBackground",
+      "id": "0812o000000O7lYAAS",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "th_con_app",
+      "type": "StaticResource"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T13:43:15.000Z",
+      "fileName": "staticresources/th_con_app__thLogo.resource",
+      "fullName": "th_con_app__thLogo",
+      "id": "0812o000000O7lZAAS",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "th_con_app",
+      "type": "StaticResource"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T13:43:15.000Z",
+      "fileName": "staticresources/th_con_app__thBoldttf.resource",
+      "fullName": "th_con_app__thBoldttf",
+      "id": "0812o000000O7lXAAS",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "th_con_app",
+      "type": "StaticResource"
+    }
+  ]
+}

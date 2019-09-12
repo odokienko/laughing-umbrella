@@ -1,0 +1,8 @@
+{
+    "eslint.nodePath": "/Users/odokienko/.vscode/extensions/salesforce.salesforcedx-vscode-lwc-46.14.0/node_modules",
+    "salesforcedx-vscode-core.show-cli-success-msg": false,
+    "salesforcedx-vscode-apex.java.home": "/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home",
+    "salesforcedx-vscode-apex.enable-sobject-refresh-on-startup": true,
+    "salesforcedx-vscode-apex.enable-semantic-errors": true,
+    "salesforcedx-vscode-core.retrieve-test-code-coverage": true
+}

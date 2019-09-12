@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0052o000008wdskAAA",
+    "createdByName": "Yevgen Odokiienko",
+    "createdDate": "2019-09-09T16:55:02.000Z",
+    "fileName": "dashboards/PublicDashboards/Recruiter_s_Dashboard.dashboard",
+    "fullName": "PublicDashboards/Recruiter_s_Dashboard",
+    "id": "01Z2o000000y1ZaEAI",
+    "lastModifiedById": "0052o000008wdskAAA",
+    "lastModifiedByName": "Yevgen Odokiienko",
+    "lastModifiedDate": "2019-09-10T10:17:07.000Z",
+    "manageableState": "unmanaged",
+    "type": "Dashboard"
+  }
+}

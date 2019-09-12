@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Location --></label>
+    <name>Location__c</name>
+    <picklistValues>
+        <masterLabel>Kharkiv</masterLabel>
+        <translation><!-- Kharkiv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kyiv</masterLabel>
+        <translation><!-- Kyiv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lviv</masterLabel>
+        <translation><!-- Lviv --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

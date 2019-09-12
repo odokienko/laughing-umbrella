@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unassigned_Candidates</fullName>
+    <columns>NAME</columns>
+    <columns>FirstName__c</columns>
+    <columns>LastName__c</columns>
+    <columns>Email__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Number_of_assigned_Vacancies__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Validated by HR</value>
+    </filters>
+    <label>Unassigned Candidates</label>
+    <sharedTo>
+        <role>Recruiter</role>
+        <role>Recruiting_Manager</role>
+    </sharedTo>
+</ListView>

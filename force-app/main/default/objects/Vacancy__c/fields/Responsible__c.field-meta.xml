@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responsible__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Recruiter who accepted this vacancy and is responsible for search (Only Recruiter role can be assigned)</description>
+    <externalId>false</externalId>
+    <label>Responsible</label>
+    <lookupFilter>
+        <active>false</active>
+        <errorMessage>Only Recruiter role can be assigned</errorMessage>
+        <filterItems>
+            <field>User.UserRole.Name</field>
+            <operation>equals</operation>
+            <value>Recruiter</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Vacancies</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

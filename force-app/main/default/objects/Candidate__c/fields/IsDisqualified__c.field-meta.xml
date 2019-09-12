@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsDisqualified__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( Status__c , &quot;Disqualified&quot;) ,true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsDisqualified</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

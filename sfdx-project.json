@@ -1,0 +1,22 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "recruitingApp",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "45.0",
+    "packageAliases": {
+        "recruitingApp": "0Ho2o000000XZDBCA4",
+        "recruitingApp@0.1.0-1": "04t2o0000011muXAAQ",
+        "recruitingApp@0.1.0-2": "04t2o0000011yNrAAI",
+        "recruitingApp@0.1.0-3": "04t2o0000011yWCAAY",
+        "recruitingApp@0.1.0-4": "04t2o0000011yWHAAY",
+        "recruitingApp@0.1.0-5": "04t2o0000011ymsAAA"
+    }
+}

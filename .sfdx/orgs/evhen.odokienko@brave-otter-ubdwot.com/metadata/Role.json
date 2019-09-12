@@ -1,0 +1,65 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "roles/Recruiting_Manager.role",
+      "fullName": "Recruiting_Manager",
+      "id": "00E2o000001L0hkEAC",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-03T08:21:32.000Z",
+      "type": "Role"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "roles/Recruiter.role",
+      "fullName": "Recruiter",
+      "id": "00E2o000001L0hpEAC",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-03T08:22:16.000Z",
+      "type": "Role"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "roles/Manager.role",
+      "fullName": "Manager",
+      "id": "00E2o000001L0haEAC",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-03T08:20:48.000Z",
+      "type": "Role"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "roles/SVPHumanResources.role",
+      "fullName": "SVPHumanResources",
+      "id": "00E2o000002LAVgEAO",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "type": "Role"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "roles/CEO.role",
+      "fullName": "CEO",
+      "id": "00E2o000002LAVQEA4",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "type": "Role"
+    }
+  ]
+}

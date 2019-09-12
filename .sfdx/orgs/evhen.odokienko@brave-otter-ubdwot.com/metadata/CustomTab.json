@@ -1,0 +1,45 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-09-02T08:48:11.000Z",
+      "fileName": "tabs/Candidate__c.tab",
+      "fullName": "Candidate__c",
+      "id": "01r2o000000XvxUAAS",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-09-02T08:48:11.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T13:43:15.000Z",
+      "fileName": "tabs/th_con_app__Welcome.tab",
+      "fullName": "th_con_app__Welcome",
+      "id": "01r2o000000VN9AAAW",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "th_con_app",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T14:18:56.000Z",
+      "fileName": "tabs/Vacancy__c.tab",
+      "fullName": "Vacancy__c",
+      "id": "01r2o000000XsxsAAC",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T14:18:56.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    }
+  ]
+}

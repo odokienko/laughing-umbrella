@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unassigned_Vacancies</fullName>
+    <columns>NAME</columns>
+    <columns>Title__c</columns>
+    <columns>Level__c</columns>
+    <columns>Responsible__c</columns>
+    <columns>DaysLeftToClose__c</columns>
+    <columns>Description__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Responsible__c</field>
+        <operation>lessOrEqual</operation>
+    </filters>
+    <label>Unassigned Vacancies</label>
+    <sharedTo>
+        <role>Manager</role>
+        <role>Recruiting_Manager</role>
+    </sharedTo>
+</ListView>

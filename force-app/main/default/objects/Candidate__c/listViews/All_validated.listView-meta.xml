@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_validated</fullName>
+    <columns>NAME</columns>
+    <columns>FirstName__c</columns>
+    <columns>LastName__c</columns>
+    <columns>Email__c</columns>
+    <columns>Location__c</columns>
+    <columns>Recruiter__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Validated by HR</value>
+    </filters>
+    <label>All validated</label>
+    <sharedTo>
+        <role>Recruiter</role>
+    </sharedTo>
+</ListView>

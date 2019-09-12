@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Vacancy --></label>
+    <lookupFilter>
+        <errorMessage><!-- Vacancy is not In-Process or you are not responsible for this vacancy. --></errorMessage>
+    </lookupFilter>
+    <name>Vacancy__c</name>
+    <relationshipLabel><!-- Assign Candidate --></relationshipLabel>
+</CustomFieldTranslation>

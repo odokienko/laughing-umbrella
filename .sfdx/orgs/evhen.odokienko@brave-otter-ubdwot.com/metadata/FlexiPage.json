@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T13:43:15.000Z",
+      "fileName": "flexipages/LightningService_UtilityBar.flexipage",
+      "fullName": "LightningService_UtilityBar",
+      "id": "0M02o000000c0j1CAA",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "manageableState": "unmanaged",
+      "type": "FlexiPage"
+    },
+    {
+      "createdById": "0052o000008wdskAAA",
+      "createdByName": "Yevgen Odokiienko",
+      "createdDate": "2019-08-08T13:43:15.000Z",
+      "fileName": "flexipages/LightningSalesConsole_UtilityBar.flexipage",
+      "fullName": "LightningSalesConsole_UtilityBar",
+      "id": "0M02o000000c0j0CAA",
+      "lastModifiedById": "0052o000008wdskAAA",
+      "lastModifiedByName": "Yevgen Odokiienko",
+      "lastModifiedDate": "2019-08-08T13:43:15.000Z",
+      "manageableState": "unmanaged",
+      "type": "FlexiPage"
+    }
+  ]
+}

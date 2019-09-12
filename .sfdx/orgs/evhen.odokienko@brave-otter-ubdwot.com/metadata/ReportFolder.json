@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0052o000008wdskAAA",
+    "createdByName": "Yevgen Odokiienko",
+    "createdDate": "1970-01-01T00:00:00.000Z",
+    "fileName": "unfiled$public",
+    "fullName": "unfiled$public",
+    "id": "",
+    "lastModifiedById": "0052o000008wdskAAA",
+    "lastModifiedByName": "Yevgen Odokiienko",
+    "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+    "manageableState": "unmanaged",
+    "namespacePrefix": "",
+    "type": "ReportFolder"
+  }
+}
