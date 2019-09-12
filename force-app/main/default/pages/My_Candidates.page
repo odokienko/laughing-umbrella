@@ -1,0 +1,35 @@
+<apex:page standardController="Vacancy__c" extensions="MyCandidatesExt" showHeader="false" sidebar="false" action="{!onload}">
+    <apex:outputField value="{!vacancy.Status__c}" rendered="false" />
+    <apex:form >
+        <apex:pageBlock rendered="{!candidates.size != 0}" title="Select Candidates to be proposed on Vacancy">
+            <apex:pageBlockButtons location="top">
+                <apex:commandLink action="{!apply}" value="Apply" StyleClass="btn" target="_top" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!candidates}" var="w" id="theTable"
+                styleClass="list" columnsWidth="50px,50px" cellpadding="4" border="1">
+                
+                <apex:column >
+                    <apex:inputCheckbox value="{!w.selected}" />
+                    <apex:actionSupport event="onclick" action="{!getSelected}" />
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Number</apex:facet>
+                    <apex:outputLink value="/{!w.candidate.Id}">{!w.candidate.Name}</apex:outputLink>
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Name</apex:facet>
+                    <apex:outputText value="{!w.candidate.FirstName__c}"/>
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Owner</apex:facet>
+                    <apex:outputText value="{!w.candidate.owner.name}"/>
+                </apex:column>
+            
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+    <apex:outputText rendered="{! candidates.size = 0 && vacancy.Status__c == 'In-Process'}" value="There are no Candidates to assign." />
+</apex:page>

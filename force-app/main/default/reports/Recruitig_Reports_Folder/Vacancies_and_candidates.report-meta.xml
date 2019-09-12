@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B1</blockId>
+            <joinTable>x</joinTable>
+        </blockInfo>
+        <columns>
+            <field>CUST_OWNER_NAME</field>
+        </columns>
+        <columns>
+            <field>Vacancy__c.Level__c</field>
+        </columns>
+        <columns>
+            <field>Vacancy__c.Title__c</field>
+        </columns>
+        <columns>
+            <field>FK_$Candidate__c.FirstName__c</field>
+        </columns>
+        <columns>
+            <field>FK_$Candidate__c.LastName__c</field>
+        </columns>
+        <columns>
+            <field>FK_$Candidate__c.Location__c</field>
+        </columns>
+        <columns>
+            <field>FK_CUSTENT_OWNER_NAME</field>
+        </columns>
+        <format>Summary</format>
+        <name>Vacancies with Candidate block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>CustomEntity$Vacancy__c@Vacancy__c.Candidate__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>Vacancy__c.StartDate__c</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>x</joinTable>
+    </blockInfo>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>Vacancy__c.StartDate__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Vacancies and candidates</name>
+    <reportType>CustomEntity$Vacancy__c@Vacancy__c.Candidate__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

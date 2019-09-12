@@ -1,0 +1,47 @@
+<apex:page standardController="Candidate__c" extensions="MyVacanciesExt" action="{!onload}">
+    <apex:outputField value="{!candidate.Status__c}" rendered="false" />
+    <apex:form >
+        <apex:pageBlock rendered="{!vacancies.size != 0}" title="Select Vacancies you want to propose to the Candidate">
+            
+            <apex:pageBlockButtons location="top">
+                <apex:commandLink action="{!apply}" value="Apply" StyleClass="btn" target="_top" />
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockTable value="{!vacancies}" var="v" id="theTable"
+                styleClass="list" columnsWidth="50px,50px" cellpadding="4" border="1">
+                
+                <apex:column >
+                    <apex:inputCheckbox value="{!v.selected}" />
+                    <apex:actionSupport event="onclick" action="{!getSelected}" />
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Number</apex:facet>
+                    <apex:outputLink value="/{!v.vacancy.Id}">{!v.vacancy.Name}</apex:outputLink>
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Title</apex:facet>
+                    <apex:outputText value="{!v.vacancy.Title__c}"/>
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Description</apex:facet>
+                    <apex:outputText value="{!v.vacancy.Description__c}"/>
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Level</apex:facet>
+                    <apex:outputText value="{!v.vacancy.Level__c}"/>
+                </apex:column>
+
+                <apex:column >
+                    <apex:facet name="header">Days Left To Close</apex:facet>
+                    <apex:outputText value="{!v.vacancy.DaysLeftToClose__c}"/>
+                </apex:column>
+            
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+    <apex:outputText rendered="{!vacancies.size = 0 && candidate.Status__c == 'Validated by HR'}" value="There are no Vacancies to assign." />
+</apex:page>
