@@ -1,0 +1,75 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:50.000Z",
+      "fileName": "flows/New_Vacancy.flow",
+      "fullName": "New_Vacancy",
+      "id": "3012o000000DPSDAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:51.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "Flow"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:51.000Z",
+      "fileName": "flows/Screen_Close_Vacancy.flow",
+      "fullName": "Screen_Close_Vacancy",
+      "id": "3012o000000DPSEAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:53.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "Flow"
+    },
+    {
+      "createdById": "0052o000009Dsy6AAC",
+      "createdByName": "Super Manager",
+      "createdDate": "2019-09-18T14:31:35.000Z",
+      "fileName": "flows/Hire_Candidate.flow",
+      "fullName": "Hire_Candidate",
+      "id": "3012o000000DPcFAAW",
+      "lastModifiedById": "0052o000009Dsy6AAC",
+      "lastModifiedByName": "Super Manager",
+      "lastModifiedDate": "2019-09-18T14:31:49.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "Flow"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:50.000Z",
+      "fileName": "flows/Candidate_Process.flow",
+      "fullName": "Candidate_Process",
+      "id": "3012o000000DPSBAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:50.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "Flow"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:48.000Z",
+      "fileName": "flows/Cancel_Vacancy.flow",
+      "fullName": "Cancel_Vacancy",
+      "id": "3012o000000DPSAAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:50.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "Flow"
+    }
+  ]
+}

@@ -41,7 +41,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Vacancy_Compact_Layout</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -61,11 +61,27 @@
     <pluralLabel>Vacancies</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Comments__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Level__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Responsible__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
-        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
-        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
         <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
         <lookupDialogsAdditionalFields>Title__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Responsible__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.FIRST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.LAST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OBJECT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Comments__c</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Title__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
     </searchLayouts>

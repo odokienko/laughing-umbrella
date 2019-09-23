@@ -14,8 +14,4 @@
         <operation>lessOrEqual</operation>
     </filters>
     <label>Unassigned Vacancies</label>
-    <sharedTo>
-        <role>Manager</role>
-        <role>Recruiting_Manager</role>
-    </sharedTo>
 </ListView>

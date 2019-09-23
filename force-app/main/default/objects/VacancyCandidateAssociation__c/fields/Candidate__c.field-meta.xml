@@ -5,18 +5,7 @@
     <label>Candidate</label>
     <lookupFilter>
         <active>true</active>
-        <booleanFilter>(1 AND 3) OR 2</booleanFilter>
-        <errorMessage>Please associate only candidates that are under your ownership and are Validated by HR.</errorMessage>
-        <filterItems>
-            <field>Candidate__c.OwnerId</field>
-            <operation>equals</operation>
-            <valueField>$User.Id</valueField>
-        </filterItems>
-        <filterItems>
-            <field>$Profile.Name</field>
-            <operation>equals</operation>
-            <value>System Administrator</value>
-        </filterItems>
+        <errorMessage>Please associate only candidates that are Validated by HR.</errorMessage>
         <filterItems>
             <field>Candidate__c.Status__c</field>
             <operation>equals</operation>

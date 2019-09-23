@@ -18,8 +18,4 @@
         <value>Validated by HR</value>
     </filters>
     <label>Unassigned Candidates</label>
-    <sharedTo>
-        <role>Recruiter</role>
-        <role>Recruiting_Manager</role>
-    </sharedTo>
 </ListView>

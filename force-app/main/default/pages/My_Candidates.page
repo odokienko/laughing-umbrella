@@ -19,8 +19,18 @@
                 </apex:column>
 
                 <apex:column >
-                    <apex:facet name="header">Name</apex:facet>
+                    <apex:facet name="header">First Name</apex:facet>
                     <apex:outputText value="{!w.candidate.FirstName__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">Last Name</apex:facet>
+                    <apex:outputText value="{!w.candidate.LastName__c}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">Comments</apex:facet>
+                    <apex:outputText value="{!w.candidate.Comments__c}"/>
                 </apex:column>
 
                 <apex:column >

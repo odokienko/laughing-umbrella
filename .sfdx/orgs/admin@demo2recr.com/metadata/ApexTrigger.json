@@ -1,0 +1,33 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:54.000Z",
+      "fileName": "triggers/VacancyApexSharing.trigger",
+      "fullName": "VacancyApexSharing",
+      "id": "01q2o0000002YMaAAM",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T10:02:54.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:54.000Z",
+      "fileName": "triggers/VacancyCandidateShareTrigger.trigger",
+      "fullName": "VacancyCandidateShareTrigger",
+      "id": "01q2o0000002YMbAAM",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:54.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "ApexTrigger"
+    }
+  ]
+}

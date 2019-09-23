@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0052o000009Dr2fAAC",
+    "createdByName": "Yevhen Odokiienko",
+    "createdDate": "2019-09-18T08:35:55.000Z",
+    "fileName": "homePageLayouts/DE Default.homePageLayout",
+    "fullName": "DE Default",
+    "id": "02T2o000000hON9EAM",
+    "lastModifiedById": "0052o000009Dr2fAAC",
+    "lastModifiedByName": "Yevhen Odokiienko",
+    "lastModifiedDate": "2019-09-18T08:35:55.000Z",
+    "manageableState": "unmanaged",
+    "namespacePrefix": "sfbs",
+    "type": "HomePageLayout"
+  }
+}

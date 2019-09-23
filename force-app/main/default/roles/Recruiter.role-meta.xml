@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Recruiter</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Recruiting_Manager</parentRole>
+    <parentRole>Recruiter_Manager</parentRole>
 </Role>

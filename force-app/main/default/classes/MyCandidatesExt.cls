@@ -20,7 +20,7 @@ public class MyCandidatesExt {
                 selectedCandidatesMap.put(vcAssociation.Candidate__c, vcAssociation);
             }
 
-            for (Candidate__c c: [SELECT Id, Owner.Name, Name, FirstName__c, LastName__c FROM Candidate__c WHERE Status__c = 'Validated By HR']) {
+            for (Candidate__c c: [SELECT Id, Owner.Name, Name, FirstName__c, LastName__c, Comments__c FROM Candidate__c WHERE Status__c = 'Validated By HR']) {
                 cw = new CandidateWrapper(c);
                 cw.selected = selectedCandidatesMap.containsKey(c.Id);
                 candidates.add(cw);

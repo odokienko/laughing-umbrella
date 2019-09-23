@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0052o000009Dr2fAAC",
+    "createdByName": "Yevhen Odokiienko",
+    "createdDate": "2019-09-18T09:44:46.000Z",
+    "fileName": "dashboards/Recruiter_s_Public_Dashboard/Recruiter_Dashboard.dashboard",
+    "fullName": "Recruiter_s_Public_Dashboard/Recruiter_Dashboard",
+    "id": "01Z2o000001BQZ6EAO",
+    "lastModifiedById": "0052o000009Dr2fAAC",
+    "lastModifiedByName": "Yevhen Odokiienko",
+    "lastModifiedDate": "2019-09-18T09:44:46.000Z",
+    "manageableState": "unmanaged",
+    "namespacePrefix": "sfbs",
+    "type": "Dashboard"
+  }
+}

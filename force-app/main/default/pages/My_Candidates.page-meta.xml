@@ -4,9 +4,4 @@
     <availableInTouch>true</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>My Candidates</label>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>11</minorNumber>
-        <namespace>th_con_app</namespace>
-    </packageVersions>
 </ApexPage>

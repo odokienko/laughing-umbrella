@@ -1,0 +1,103 @@
+<apex:page standardController="Vacancy__c" recordSetVar="vacancies" action="{!onload}"
+    extensions="ManageVacanciesExt" lightningStylesheets="true">
+    <apex:form id="theForm">
+        <apex:pageBlock title="Managing Vacancies"  id="vacancies_list">
+            
+            <apex:pageBlockButtons location="both">
+                <apex:commandButton onclick="window.location.href='{!URLFOR($Action.Vacancy__c.New)}'" value="New Vacancy" immediate="true" rerender="blank"/>
+                <apex:commandButton action="{!cancelVacancies}" value="Cancel Vacancies" reRender="theTable,Msg"/>
+                <apex:commandButton action="{!closeVacancies}" value="Close Vacancies"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageMessages id="Msg"/> 
+            
+            <apex:pageBlockTable value="{!vacList}" var="vac" id="theTable"
+                styleClass="table" frame="box" columnsWidth="50px,10%,50px,50px,50px,5%,50%" cellpadding="4" border="1">
+
+                <apex:column>
+                    <apex:inputCheckbox value="{!vac.selected}" />
+                    <apex:actionSupport event="onclick" action="{!getSelected}" />
+                </apex:column>
+                
+                <apex:column headerValue="{!$ObjectType.vacancy__c.fields.Name.label}" title="{!vac.vacancy.Name}">
+                    <apex:outputLink value="/{!vac.vacancy.id}">{!vac.vacancy.Title__c}</apex:outputLink>
+                </apex:column>
+
+                <apex:column headerValue="{!$ObjectType.vacancy__c.fields.Level__c.label}"
+                    value="{!vac.vacancy.Level__c}"/>
+
+                <apex:column headerValue="{!$ObjectType.vacancy__c.fields.StartDate__c.label}"
+                    value="{!vac.vacancy.StartDate__c}"/>
+
+                <apex:column headerValue="{!$ObjectType.vacancy__c.fields.Status__c.label}"
+                    value="{!vac.vacancy.Status__c}"/>      
+
+                <apex:column headerValue="{!$ObjectType.vacancy__c.fields.Responsible__c.label}"
+                    value="{!vac.vacancy.Responsible__c}"/>
+                
+                <apex:column headerValue="{!$ObjectType.vacancy__c.fields.candidate__c.label}">
+                    <apex:variable var="candidates" value="{!vacancyCandidateDetailsMap[vac.vacancy.Id]}"/>
+            
+                    <apex:inputHidden value="{!vac.vacancy.candidate__c}" id="RadioVacancyCandidate"/>
+
+                    <apex:dataTable rendered="{!candidates.size > 0}" width="100%" frame="none" columnsWidth="30px,20%,auto,20%" cellpadding="4" value="{!candidates}" var="candidate">
+                        <apex:column  >
+                            <apex:outputText rendered="{!IF(vac.candidate = candidate.id,'false', 'true')}">
+                                <input type="radio" name="chosen{!vac.vacancy.Id}" id="chosenV{!vac.vacancy.Id}C{!candidate.id}" VALUE="{!candidate.id}" onclick="changeValue(this,'{!$Component.RadioVacancyCandidate}');"/>
+                            </apex:outputText>
+                            <apex:outputText rendered="{!IF(vac.candidate = candidate.id,'true', 'false')}">
+                                <input type="radio" checked="checked" name="chosen{!vac.vacancy.Id}" id="chosenV{!vac.vacancy.Id}C{!candidate.id}" VALUE="{!candidate.id}" onclick="changeValue(this,'{!$Component.RadioVacancyCandidate}');"/>
+                            </apex:outputText> 
+                        </apex:column>     
+                    
+                        <apex:column title="{!candidate.Name}">
+                            <apex:outputLink  value="/{!candidate.id}"><apex:outputText value="{!candidate.FirstName__c}" />&nbsp;<apex:outputText value="{!candidate.LastName__c}" /></apex:outputLink> 
+                        </apex:column>
+
+                        <apex:column title="{!$ObjectType.candidate__c.fields.Comments__c.label}">
+                            <apex:outputText value="{!candidate.Comments__c}"/>
+                        </apex:column>
+
+                        <apex:column title="{!$ObjectType.candidate__c.fields.OwnerId.label}"
+                            value="{!candidate.OwnerId}"/>
+                    </apex:dataTable>
+
+
+                    <apex:outputText style="color: #00f;" value="No candidates assigned." rendered="{!candidates.size = 0}"/>
+
+                </apex:column>
+
+            </apex:pageBlockTable>  
+            
+            <!-- Pagination -->
+            <table style="width: 100%"><tr>
+                <td>
+                    Page: <apex:outputText 
+                    value=" {!PageNumber} of {! CEILING(ResultSize / PageSize) }"/>
+                </td>            
+                <td align="center">
+                    <!-- Previous page -->
+                    <apex:commandLink action="{! Previous }" value="« Previous" rendered="{! HasPrevious }"/>
+                    <apex:outputText style="color: #ccc;" value="« Previous" rendered="{! NOT(HasPrevious) }"/>
+                    &nbsp;&nbsp;  
+                    <!-- Next page -->
+                    <apex:commandLink action="{! Next }" value="Next »" rendered="{! HasNext }"/>
+                    <apex:outputText style="color: #ccc;" value="Next »" rendered="{! NOT(HasNext) }"/>
+                </td>
+            </tr></table>
+
+            
+    
+         
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        function changeValue(input, textid) {
+            document.getElementById(textid).value = input.value;
+        }
+        
+        function choiceClick(textid) {
+            document.getElementById(textid).click;
+        }
+    </script>
+</apex:page>

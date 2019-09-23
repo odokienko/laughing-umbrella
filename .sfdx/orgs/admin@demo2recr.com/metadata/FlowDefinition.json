@@ -1,0 +1,75 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:51.000Z",
+      "fileName": "flowDefinitions/Screen_Close_Vacancy.flowDefinition",
+      "fullName": "Screen_Close_Vacancy",
+      "id": "3002o000000LBYWAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:53.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:48.000Z",
+      "fileName": "flowDefinitions/Cancel_Vacancy.flowDefinition",
+      "fullName": "Cancel_Vacancy",
+      "id": "3002o000000LBYSAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:50.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:50.000Z",
+      "fileName": "flowDefinitions/Candidate_Process.flowDefinition",
+      "fullName": "Candidate_Process",
+      "id": "3002o000000LBYTAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:50.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:50.000Z",
+      "fileName": "flowDefinitions/New_Vacancy.flowDefinition",
+      "fullName": "New_Vacancy",
+      "id": "3002o000000LBYVAA4",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:51.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "FlowDefinition"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:50.000Z",
+      "fileName": "flowDefinitions/Hire_Candidate.flowDefinition",
+      "fullName": "Hire_Candidate",
+      "id": "3002o000000LBYUAA4",
+      "lastModifiedById": "0052o000009Dsy6AAC",
+      "lastModifiedByName": "Super Manager",
+      "lastModifiedDate": "2019-09-18T14:31:49.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "FlowDefinition"
+    }
+  ]
+}

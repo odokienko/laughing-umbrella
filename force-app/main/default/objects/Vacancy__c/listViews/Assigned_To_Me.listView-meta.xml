@@ -15,7 +15,4 @@
         <value>1</value>
     </filters>
     <label>In Process</label>
-    <sharedTo>
-        <role>Recruiter</role>
-    </sharedTo>
 </ListView>

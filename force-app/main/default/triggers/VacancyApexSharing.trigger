@@ -9,7 +9,7 @@ trigger VacancyApexSharing on Vacancy__c (after insert, after update) {
     Candidate__Share candidateShr;
     
     for(Vacancy__c vacancy : trigger.new){
-        if (vacancy.Status__c == 'In-Process' && vacancy.Responsible__c != null) {
+        if (vacancy.Status__c == RecruitmentConstants.VACANCY_STATUS_IN_PROCESS && vacancy.Responsible__c != null) {
             recruiterShr = new Vacancy__Share(
                 ParentId = vacancy.Id,
                 UserOrGroupId = vacancy.Responsible__c,
@@ -20,17 +20,17 @@ trigger VacancyApexSharing on Vacancy__c (after insert, after update) {
             vacancyShrs.add(recruiterShr);
         }
 
-        if (vacancy.Status__c == 'Closed' && vacancy.Candidate__c != null) {
+        //if (vacancy.Status__c == 'Closed' && vacancy.Candidate__c != null) {
             // Instantiate the sharing objects
-            candidateShr = new Candidate__Share(
-                ParentId = vacancy.Candidate__c,
-                UserOrGroupId = vacancy.OwnerId,
-                AccessLevel = 'Read',
-                RowCause = Schema.Candidate__Share.RowCause.Manual
-            );
-            
-            candidateShrs.add(candidateShr);
-        }
+        //    candidateShr = new Candidate__Share(
+        //        ParentId = vacancy.Candidate__c,
+        //        UserOrGroupId = vacancy.OwnerId,
+        //        AccessLevel = 'Read',
+        //        RowCause = Schema.Candidate__Share.RowCause.Manual
+        //    );
+        //    
+        //    candidateShrs.add(candidateShr);
+        //}
     }
     
     if(!sharesToDelete.isEmpty()){
@@ -41,7 +41,7 @@ trigger VacancyApexSharing on Vacancy__c (after insert, after update) {
         Database.insert(vacancyShrs,false);
     }
     
-    if (candidateShrs.size() > 0) {
-        Database.insert(candidateShrs,false);
-    }
+    //if (candidateShrs.size() > 0) {
+    //    Database.insert(candidateShrs,false);
+    //}
 }

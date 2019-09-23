@@ -8,7 +8,4 @@
     <columns>Status__c</columns>
     <filterScope>Mine</filterScope>
     <label>My Candidates</label>
-    <sharedTo>
-        <role>Recruiter</role>
-    </sharedTo>
 </ListView>

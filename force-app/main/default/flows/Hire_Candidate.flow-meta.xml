@@ -23,6 +23,28 @@
             <targetReference>Update_Candidate</targetReference>
         </connector>
     </assignments>
+    <decisions>
+        <name>Have_other_VCA</name>
+        <label>Have other VCA?</label>
+        <locationX>260</locationX>
+        <locationY>600</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>RemoveCandidateToVacancy</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_Vacancies_Candidate</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
     <interviewLabel>Hire Candidate {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Hire Candidate</label>
     <processMetadataValues>
@@ -44,7 +66,7 @@
         <locationX>452</locationX>
         <locationY>333</locationY>
         <connector>
-            <targetReference>Delete_Vacancies_Candidate</targetReference>
+            <targetReference>Get_Vacancy_Candidates</targetReference>
         </connector>
         <filters>
             <field>Candidate__c</field>
@@ -60,14 +82,7 @@
         <label>Delete Vacancies Candidate</label>
         <locationX>452</locationX>
         <locationY>494</locationY>
-        <filters>
-            <field>Vacancy__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>varVacancyId</elementReference>
-            </value>
-        </filters>
-        <object>VacancyCandidateAssociation__c</object>
+        <inputReference>RemoveCandidateToVacancy</inputReference>
     </recordDeletes>
     <recordLookups>
         <name>Get_Candidate_to_hire</name>
@@ -87,6 +102,26 @@
         </filters>
         <object>Candidate__c</object>
         <outputReference>CandidateToHire</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Vacancy_Candidates</name>
+        <label>Get Vacancy Candidates</label>
+        <locationX>169</locationX>
+        <locationY>432</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Have_other_VCA</targetReference>
+        </connector>
+        <filters>
+            <field>Vacancy__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>varVacancyId</elementReference>
+            </value>
+        </filters>
+        <object>VacancyCandidateAssociation__c</object>
+        <outputReference>RemoveCandidateToVacancy</outputReference>
         <queriedFields>Id</queriedFields>
     </recordLookups>
     <recordUpdates>

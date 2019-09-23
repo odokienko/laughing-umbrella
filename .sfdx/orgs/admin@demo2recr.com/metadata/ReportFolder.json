@@ -1,0 +1,33 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "2019-09-18T09:44:46.000Z",
+      "fileName": "reports/Recruitig_Reports_Folder",
+      "fullName": "Recruitig_Reports_Folder",
+      "id": "00l2o000002a79pAAA",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "2019-09-18T09:44:46.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfbs",
+      "type": "ReportFolder"
+    },
+    {
+      "createdById": "0052o000009Dr2fAAC",
+      "createdByName": "Yevhen Odokiienko",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "unfiled$public",
+      "fullName": "unfiled$public",
+      "id": "",
+      "lastModifiedById": "0052o000009Dr2fAAC",
+      "lastModifiedByName": "Yevhen Odokiienko",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "",
+      "type": "ReportFolder"
+    }
+  ]
+}

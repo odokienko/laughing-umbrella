@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vacancy_Compact_Layout</fullName>
+    <fields>Title__c</fields>
+    <fields>Name</fields>
+    <fields>Level__c</fields>
+    <fields>Status__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Responsible__c</fields>
+    <label>Vacancy Compact Layout</label>
+</CompactLayout>

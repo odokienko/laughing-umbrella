@@ -31,7 +31,9 @@ public class MyVacanciesExt {
                 selectedVacanciesMap.put(vcAssociation.Vacancy__c, vcAssociation);
             }
 
-            for (Vacancy__c v: [SELECT Id, Owner.Name, Name, Title__c, Level__c, Description__c, DaysLeftToClose__c FROM Vacancy__c WHERE Status__c = 'In-Process']) {
+            for (Vacancy__c v: [SELECT Id, Owner.Name, Name, Title__c, Level__c, Description__c, DaysLeftToClose__c 
+                                FROM Vacancy__c 
+                                WHERE Status__c = 'In-Process' and Responsible__c = :userInfo.getUserId()]) {
                 vw = new VacancyWrapper(v);
                 vw.selected = selectedVacanciesMap.containsKey(v.Id);
                 vacancies.add(vw);
