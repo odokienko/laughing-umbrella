@@ -24,7 +24,7 @@ public with sharing class ManageVacanciesExt {
             if(vacancyCandidateDetailsMap == null) {
                 vacancyCandidateDetailsMap = new Map<Id, List<Candidate__c>>();
                 for (ID vacancyId : vacancyRecordsMap.keySet()) {
-                    vacancyCandidateDetailsMap.put(vacancyId, candidateDetaild(vacancyId));
+                    vacancyCandidateDetailsMap.put(vacancyId, candidateDetails(vacancyId));
                 }
             }
             return vacancyCandidateDetailsMap;
@@ -105,18 +105,7 @@ public with sharing class ManageVacanciesExt {
         }
     }
 
-    private List<SelectOption> candidatelist(String vacancyId) {
-        List<SelectOption> candidatelist = new List<SelectOption>();
-        List<VacancyCandidateAssociation__c> vcas = vacancyRecordsMap.get(vacancyId).VacancyCandidateAssociations__r;
-        
-        for(VacancyCandidateAssociation__c vca : vcas) {
-            candidatelist.add(new SelectOption(vca.Candidate__c, vca.Candidate__r.FirstName__c + ' ' + vca.Candidate__r.LastName__c));
-        }
-
-        return candidatelist;
-    }
-
-    private List<Candidate__c> candidateDetaild(String vacancyId) {
+    private List<Candidate__c> candidateDetails(String vacancyId) {
         List<Candidate__c> candidatelist = new List<Candidate__c>();
         List<VacancyCandidateAssociation__c> vcas = vacancyRecordsMap.get(vacancyId).VacancyCandidateAssociations__r;
         
