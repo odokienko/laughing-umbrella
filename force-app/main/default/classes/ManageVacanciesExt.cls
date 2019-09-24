@@ -142,22 +142,19 @@ public with sharing class ManageVacanciesExt {
         List<Vacancy__c> updateList = setVacancyStatus('Closed');
         
         List<Database.SaveResult> updateResults = Database.update(updateList, false);
+        System.debug('doCloseVacancies updateResults: ' + updateResults);
         for(Integer i=0;i<updateResults.size();i++){
+            System.debug('doCloseVacancies updateResults.get(i): ' + updateResults.get(i));
             if (updateResults.get(i).isSuccess()){
-                System.debug('doCloseVacancies vacancy: ' + updateList.get(i));
-                System.debug('doCloseVacancies: ' + updateList.get(i).Candidate__c);
-                if (updateList.get(i).Candidate__c == null ) {
-                    Map<String, Object> params = new Map<String, Object>();
-                    params.put('varVacancyId', updateResults.get(i).getId());
-                    doCancellStaff(params);
-                    
-                    ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM,'Vacancy ' + updateList.get(i).Name + ' had no candidates selected, so it has been cancelled.'));
-                } else {
-                    Map<String, Object> params = new Map<String, Object>();
-                    params.put('varVacancyId', updateResults.get(i).getId());
-                    params.put('selectedCandidateId', updateList.get(i).Candidate__c);
-                    HireCandidate(params);
-                    ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM,'Vacancy ' + updateList.get(i).Name + ' have been successfully closed.'));
+                Vacancy__c vacancy = updateList.get(i);
+                System.debug('doCloseVacancies vacancy: ' + vacancy);
+                System.debug('doCloseVacancies: ' + vacancy.Candidate__c);
+                if (vacancy.Candidate__c == null || String.IsEmpty(vacancy.Candidate__c)) {
+                    doCancellStaff(updateResults.get(i).getId());
+                    ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.WARNING,'Vacancy ' + vacancy.Name + ' had no candidates selected, so it has been cancelled.'));
+                } else {   
+                    HireCandidate(updateResults.get(i).getId(), vacancy.Candidate__c);
+                    ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM,'Vacancy ' + vacancy.Name + ' have been successfully closed.'));
                 }
                 
             } else if (!updateResults.get(i).isSuccess()){
@@ -173,9 +170,7 @@ public with sharing class ManageVacanciesExt {
         List<Database.SaveResult> updateResults = Database.update(updateList, false);
         for(Integer i=0;i<updateResults.size();i++){
             if (updateResults.get(i).isSuccess()){
-                Map<String, Object> params = new Map<String, Object>();
-                params.put('varVacancyId', updateResults.get(i).getId());
-                doCancellStaff(params);
+                doCancellStaff(updateResults.get(i).getId());
                 
                 ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM,'Vacancy ' + updateList.get(i).Name + ' have been successfully cancelled.'));
             } else if (!updateResults.get(i).isSuccess()){
@@ -185,12 +180,31 @@ public with sharing class ManageVacanciesExt {
         }
     }
 
-    private void HireCandidate(Map<String, Object> params) {
+    private void HireCandidate(Id vacancyId, Id selectedCandidateId) {
+        Map<String, Object> params = new Map<String, Object>();
+        System.debug('HireCandidate vacancyId: ' + vacancyId);
+        System.debug('HireCandidate selectedCandidateId: ' + selectedCandidateId);
+        If (vacancyId == null || selectedCandidateId == null) {
+            ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR, 'Unable to hire'));
+            return;
+        }
+        
+        params.put('varVacancyId', vacancyId);
+        params.put('selectedCandidateId', selectedCandidateId);
+
         Flow.Interview.Hire_Candidate Hire_CandidateFlow = new Flow.Interview.Hire_Candidate(params);
         Hire_CandidateFlow.start();
     }
 
-    private void doCancellStaff(Map<String, Object> params) {
+    private void doCancellStaff(Id vacancyId) {
+        Map<String, Object> params = new Map<String, Object>();
+        System.debug('HireCandidate vacancyId: ' + vacancyId);
+        If (vacancyId == null) {
+            ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR, 'Unable to cancel'));
+            return;
+        }
+
+        params.put('varVacancyId', vacancyId);
         Flow.Interview.Cancel_Vacancy Cancel_VacancyFlow = new Flow.Interview.Cancel_Vacancy(params);
         Cancel_VacancyFlow.start();
     }
