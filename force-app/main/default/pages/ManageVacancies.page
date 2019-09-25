@@ -16,7 +16,7 @@
 
                 <apex:column>
                     <apex:inputCheckbox value="{!vac.selected}" />
-                    <apex:actionSupport event="onclick" action="{!getSelected}" />
+                    <apex:actionSupport event="onclick" action="{!getSelected}"  reRender="theTable"/>
                 </apex:column>
                 
                 <apex:column headerValue="{!$ObjectType.vacancy__c.fields.Name.label}" title="{!vac.vacancy.Name}">

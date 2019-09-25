@@ -2,6 +2,10 @@ public with sharing class ManageVacanciesExt {
     private List<Vacancy__c> SelectedVacancies = new List<Vacancy__c>();
     private ApexPages.StandardSetController controller;
     public List<VacancyWrapper> vacList { get; private set; } {vacList = new List<VacancyWrapper>();}
+    private List<String> filteredStatuses = new List<String>{
+        RecruitmentConstants.VACANCY_STATUS_CENCELLED,
+        RecruitmentConstants.VACANCY_STATUS_CLOSED
+    };
 
     public ApexPages.StandardSetController vacancyRecords {
         get {
@@ -9,9 +13,9 @@ public with sharing class ManageVacanciesExt {
                 vacancyRecords = new ApexPages.StandardSetController(
                     Database.getQueryLocator([
                         SELECT Id, Status__c, Name, Title__c, Candidate__c, Description__c, Level__c, Responsible__c, StartDate__c,
-                            (SELECT Name, Vacancy__c, Candidate__r.Name, Candidate__r.LastName__c, Candidate__r.FirstName__c, Candidate__r.Comments__c, Candidate__r.OwnerId FROM VacancyCandidateAssociations__r) 
+                            (SELECT Name, Vacancy__c, Candidate__r.Status__c, Candidate__r.Name, Candidate__r.Vacancies__c, Candidate__r.LastName__c, Candidate__r.FirstName__c, Candidate__r.Comments__c, Candidate__r.OwnerId FROM VacancyCandidateAssociations__r) 
                         FROM Vacancy__c
-                        WHERE Status__c NOT IN ('Cancelled', 'Closed')])
+                        WHERE Status__c NOT IN :filteredStatuses ])
                 );
             }
             return vacancyRecords;
@@ -36,7 +40,6 @@ public with sharing class ManageVacanciesExt {
         SelectedVacancies.clear();
 
         for(VacancyWrapper wrapper: vacList) {
-            System.debug('vacancy ' + wrapper.vacancy.id + ' : ' + wrapper.vacancy.Candidate__c);
             if (wrapper.vacancy.Candidate__c != null) {
                 wrapper.candidate = wrapper.vacancy.Candidate__c;
             }
@@ -93,8 +96,7 @@ public with sharing class ManageVacanciesExt {
         return null;
     }
 
-    public class VacancyWrapper
-    {
+    public class VacancyWrapper {
         public Vacancy__c vacancy {get; set;}
         public Boolean selected {get; set;}
         public Id candidate {get; set;}
@@ -122,61 +124,107 @@ public with sharing class ManageVacanciesExt {
                 vacancyRecordsMap = new Map<id, Vacancy__c>();
                 vacancyRecordsMap.putAll((List<Vacancy__c>)vacancyRecords.GetRecords());
             }
+
             return vacancyRecordsMap;
         }
         private set;
     }
 
-    private List<Vacancy__c> setVacancyStatus (String status) {
-        List<Vacancy__c> updateList = new List<Vacancy__c>();
-        for (Vacancy__c vacancy : SelectedVacancies)
-        {
-            vacancy.Status__c = status;
-            updateList.add(vacancy);
-        }
-
-        return updateList;
-    }
-
     private void doCloseVacancies() {
-        List<Vacancy__c> updateList = setVacancyStatus('Closed');
+        Map<Id,VacancyCandidateAssociation__c> vacancyCandidateAssociations = new Map<Id,VacancyCandidateAssociation__c>();
+        Map<Id,Candidate__c> candidatesToHireMap = new Map<Id,Candidate__c>();
+        List<Candidate__c> candidateToHireList = new List<Candidate__c>();        
+        List<Vacancy__c> closedVacancyList = new List<Vacancy__c>();
+        List<Vacancy__c> cancelledVacancyList = new List<Vacancy__c>();
         
-        List<Database.SaveResult> updateResults = Database.update(updateList, false);
-        System.debug('doCloseVacancies updateResults: ' + updateResults);
-        for(Integer i=0;i<updateResults.size();i++){
-            System.debug('doCloseVacancies updateResults.get(i): ' + updateResults.get(i));
-            if (updateResults.get(i).isSuccess()){
-                Vacancy__c vacancy = updateList.get(i);
-                System.debug('doCloseVacancies vacancy: ' + vacancy);
-                System.debug('doCloseVacancies: ' + vacancy.Candidate__c);
-                if (vacancy.Candidate__c == null || String.IsEmpty(vacancy.Candidate__c)) {
-                    doCancellStaff(updateResults.get(i).getId());
-                    ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.WARNING,'Vacancy ' + vacancy.Name + ' had no candidates selected, so it has been cancelled.'));
-                } else {   
-                    HireCandidate(updateResults.get(i).getId(), vacancy.Candidate__c);
-                    ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM,'Vacancy ' + vacancy.Name + ' have been successfully closed.'));
-                }
-                
-            } else if (!updateResults.get(i).isSuccess()){
+        VacancyTool.splitVacanciesToClosedCancelled(SelectedVacancies, closedVacancyList, cancelledVacancyList);
+        
+        updateVacancyClosedStatusAddingMessages(closedVacancyList, candidatesToHireMap, vacancyCandidateAssociations);
+        updateVacancyCancelledStatusAddingMessages(cancelledVacancyList, vacancyCandidateAssociations, ApexPages.Severity.WARNING);
+        
+        getBackVacancyCandidateAssociations(candidatesToHireMap.keySet(), vacancyCandidateAssociations);
+        CandidateTool.setCandidateHired(candidatesToHireMap.values(), candidateToHireList);
+        
+        update candidateToHireList;
+        System.debug('doCloseVacancies delete vacancyCandidateAssociations' + vacancyCandidateAssociations.values());
+        // delete vacancyCandidateAssociations.values();
+    }
+
+    private void getBackVacancyCandidateAssociations(Set<Id> candidateIds, Map<Id,VacancyCandidateAssociation__c> vacancyCandidateAssociations) {
+        vacancyCandidateAssociations.putAll([
+            SELECT Id
+            FROM VacancyCandidateAssociation__c
+            WHERE Candidate__c IN :candidateIds
+        ]);
+    }
+
+    private void updateVacancyClosedStatusAddingMessages(
+        List<Vacancy__c> closedVacancyList,
+        Map<Id,Candidate__c> candidatesToHireMap,
+        Map<Id,VacancyCandidateAssociation__c> vacancyCandidateAssociations
+    ) {
+        Candidate__c candidate;
+        List<VacancyCandidateAssociation__c> vcas = new List<VacancyCandidateAssociation__c>();
+        List<Database.SaveResult> updateResults = Database.update(closedVacancyList, false);
+        
+        for(Integer i = 0; i < updateResults.size(); i++){
+            if (!updateResults.get(i).isSuccess()){
                 Database.Error error = updateResults.get(i).getErrors().get(0);
                 ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR, error.getMessage()));
+
+                continue;
             }
+
+            Vacancy__c vacancy = closedVacancyList.get(i);
+
+            vcas = vacancyRecordsMap.get(vacancy.Id).VacancyCandidateAssociations__r;
+            System.System.debug('vcas 1' + vcas);
+
+            vcas = vacancy.VacancyCandidateAssociations__r;
+            System.System.debug('vcas 2' + vcas);
+
+            vacancyCandidateAssociations.putAll(vcas);
+
+            for(VacancyCandidateAssociation__c vca : vcas) {
+                candidate = vca.Candidate__r;
+                if (candidate.Id == vacancy.Candidate__c) {
+                    candidate.Vacancies__c = vacancy.Id;
+                    candidatesToHireMap.put(candidate.Id, candidate);
+                }    
+            }
+
+            ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM,'Vacancy ' + vacancy.Name + ' have been successfully closed.'));
         }
     }
 
-    private void doCanselVacancies() {
-        List<Vacancy__c> updateList = setVacancyStatus('Cancelled');
-        
+    private void doCanselVacancies() { 
+        Map<Id,VacancyCandidateAssociation__c> vacancyCandidateAssociations = new Map<Id,VacancyCandidateAssociation__c>();
+        List<Vacancy__c> cancelledVacancyList = new List<Vacancy__c>();
+
+        VacancyTool.trySetVacancyCancelledStatus(SelectedVacancies, cancelledVacancyList);
+        updateVacancyCancelledStatusAddingMessages(cancelledVacancyList, vacancyCandidateAssociations, ApexPages.Severity.CONFIRM);
+
+        System.debug('doCanselVacancies delete vacancyCandidateAssociations' + vacancyCandidateAssociations.values());
+        delete vacancyCandidateAssociations.values();
+    }
+
+    private void updateVacancyCancelledStatusAddingMessages(
+        List<Vacancy__c> updateList,
+        Map<Id,VacancyCandidateAssociation__c> vacancyCandidateAssociations,
+        ApexPages.Severity severity
+    ) {
         List<Database.SaveResult> updateResults = Database.update(updateList, false);
+
         for(Integer i=0;i<updateResults.size();i++){
-            if (updateResults.get(i).isSuccess()){
-                doCancellStaff(updateResults.get(i).getId());
-                
-                ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM,'Vacancy ' + updateList.get(i).Name + ' have been successfully cancelled.'));
-            } else if (!updateResults.get(i).isSuccess()){
+            if (!updateResults.get(i).isSuccess()){
                 Database.Error error = updateResults.get(i).getErrors().get(0);
                 ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR, error.getMessage()));
-            }
+                 
+                continue;
+            } 
+            
+            vacancyCandidateAssociations.putAll(vacancyRecordsMap.get(updateList.get(i).Id).VacancyCandidateAssociations__r);
+            ApexPages.addMessage(new ApexPages.Message(severity,'Vacancy ' + updateList.get(i).Name + ' has been successfully cancelled.'));
         }
     }
 
@@ -194,18 +242,5 @@ public with sharing class ManageVacanciesExt {
 
         Flow.Interview.Hire_Candidate Hire_CandidateFlow = new Flow.Interview.Hire_Candidate(params);
         Hire_CandidateFlow.start();
-    }
-
-    private void doCancellStaff(Id vacancyId) {
-        Map<String, Object> params = new Map<String, Object>();
-        System.debug('HireCandidate vacancyId: ' + vacancyId);
-        If (vacancyId == null) {
-            ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR, 'Unable to cancel'));
-            return;
-        }
-
-        params.put('varVacancyId', vacancyId);
-        Flow.Interview.Cancel_Vacancy Cancel_VacancyFlow = new Flow.Interview.Cancel_Vacancy(params);
-        Cancel_VacancyFlow.start();
     }
 }
