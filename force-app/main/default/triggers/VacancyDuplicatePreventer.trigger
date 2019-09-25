@@ -2,6 +2,7 @@ trigger VacancyDuplicatePreventer on Vacancy__c
                                (before insert, before update) {
 
     Map<String, Vacancy__c> VacancyByCandidateMap = new Map<String, Vacancy__c>();
+    Map<String, Vacancy__c> VacancyMap = new Map<String, Vacancy__c>();
     Vacancy__c newVacancy;
     Candidate__c candidate;
     Map<Id,Candidate__c> candidateMap = new Map<Id,Candidate__c>();
@@ -34,11 +35,15 @@ trigger VacancyDuplicatePreventer on Vacancy__c
             } else {
                 VacancyByCandidateMap.put(vacancy.Candidate__c, vacancy);
             }
-       }
+        }
+
+        if (Trigger.IsUpdate) {
+            VacancyMap.put(vacancy.Id, vacancy);
+        }
     }
 
     for (Vacancy__c vacancy : [SELECT Name, Candidate__c, Title__c, Candidate__r.Name, Candidate__r.FirstName__c, Candidate__r.LastName__c FROM Vacancy__c
-                      WHERE Candidate__c IN :VacancyByCandidateMap.KeySet()]) {
+                      WHERE Candidate__c IN :VacancyByCandidateMap.KeySet() AND Id NOT IN :VacancyMap.KeySet()]) {
         newVacancy = VacancyByCandidateMap.get(vacancy.Candidate__c);
         displayName1 = !String.IsEmpty(vacancy.Title__c) ? vacancy.Title__c + ' (' + vacancy.Name + ')' : vacancy.Name;
         CandidateName = String.IsEmpty(vacancy.Candidate__r.FirstName__c) ? vacancy.Candidate__r.FirstName__c + ' ' + vacancy.Candidate__r.LastName__c + ' (' + vacancy.Candidate__r.Name + ')' : vacancy.Candidate__r.Name;

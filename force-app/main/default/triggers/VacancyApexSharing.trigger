@@ -26,6 +26,6 @@ trigger VacancyApexSharing on Vacancy__c (after insert, after update) {
     }
 
     if (vacancyShrs.size() > 0) {
-        Database.insert(vacancyShrs,false);
+        Database.upsert(vacancyShrs,false);
     }
 }

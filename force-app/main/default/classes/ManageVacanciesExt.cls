@@ -147,7 +147,7 @@ public with sharing class ManageVacanciesExt {
         
         update candidateToHireList;
         System.debug('doCloseVacancies delete vacancyCandidateAssociations' + vacancyCandidateAssociations.values());
-        // delete vacancyCandidateAssociations.values();
+        delete vacancyCandidateAssociations.values();
     }
 
     private void getBackVacancyCandidateAssociations(Set<Id> candidateIds, Map<Id,VacancyCandidateAssociation__c> vacancyCandidateAssociations) {
