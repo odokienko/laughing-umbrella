@@ -13,7 +13,7 @@ trigger VacancyApexSharing on Vacancy__c (after insert, after update) {
             recruiterShr = new Vacancy__Share(
                 ParentId = vacancy.Id,
                 UserOrGroupId = vacancy.Responsible__c,
-                AccessLevel = 'Read',
+                AccessLevel = 'Edit',
                 RowCause = Schema.Vacancy__Share.RowCause.Manual
             );
             
