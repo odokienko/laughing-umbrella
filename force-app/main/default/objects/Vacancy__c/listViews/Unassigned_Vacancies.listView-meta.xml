@@ -10,8 +10,12 @@
     <columns>Comments__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>Responsible__c</field>
-        <operation>lessOrEqual</operation>
+        <field>Is_Assigned_To_Me__c</field>
+        <operation>equals</operation>
+        <value>1</value>
     </filters>
     <label>Unassigned Vacancies</label>
+    <sharedTo>
+        <role>Recruiter_Manager</role>
+    </sharedTo>
 </ListView>

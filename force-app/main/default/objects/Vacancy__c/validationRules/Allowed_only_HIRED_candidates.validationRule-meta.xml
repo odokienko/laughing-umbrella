@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Allowed_only_HIRED_candidates</fullName>
-    <active>true</active>
+    <active>false</active>
     <errorConditionFormula>NOT(ISBLANK( Candidate__c )) &amp;&amp; Not(ISPICKVAL( Candidate__r.Status__c  ,&quot;Hired&quot;))</errorConditionFormula>
     <errorDisplayField>Candidate__c</errorDisplayField>
     <errorMessage>The Candidate must be Hired first.</errorMessage>

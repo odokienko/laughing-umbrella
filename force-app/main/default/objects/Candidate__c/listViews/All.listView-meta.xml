@@ -8,6 +8,7 @@
     <columns>Location__c</columns>
     <columns>Status__c</columns>
     <columns>OWNER.ALIAS</columns>
+    <columns>Vacancies__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

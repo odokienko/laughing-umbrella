@@ -7,6 +7,12 @@
     <columns>Responsible__c</columns>
     <columns>DaysLeftToClose__c</columns>
     <columns>Status__c</columns>
+    <columns>Candidate__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
+    <sharedTo>
+        <role>Manager</role>
+        <role>Recruiter</role>
+        <role>Recruiter_Manager</role>
+    </sharedTo>
 </ListView>

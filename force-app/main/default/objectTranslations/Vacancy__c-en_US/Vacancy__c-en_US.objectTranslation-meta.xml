@@ -8,5 +8,58 @@
         <plural>true</plural>
         <value>Vacancies</value>
     </caseValues>
+    <layouts>
+        <layout>All Vacancy Layout</layout>
+        <sections>
+            <label><!-- Actions --></label>
+            <section>Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Promo --></label>
+            <section>Promo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Recruiter Vacancy Layout</layout>
+        <sections>
+            <label><!-- Actions --></label>
+            <section>Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- My Candidates --></label>
+            <section>My Candidates</section>
+        </sections>
+        <sections>
+            <label><!-- Promo --></label>
+            <section>Promo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vacancy Layout</layout>
+        <sections>
+            <label><!-- Actions --></label>
+            <section>Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Promo --></label>
+            <section>Promo</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Candidate must be Hired first. --></errorMessage>
+        <name>Allowed_only_HIRED_candidates</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -16,6 +16,7 @@
             <drillToDetailEnabled>false</drillToDetailEnabled>
             <enableHover>false</enableHover>
             <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
             <legendPosition>Bottom</legendPosition>
             <report>Recruitig_Reports_Folder/All_vacancies_by_status</report>
             <showPercentage>false</showPercentage>
@@ -32,6 +33,7 @@
             <displayUnits>Auto</displayUnits>
             <gaugeMax>1.0</gaugeMax>
             <gaugeMin>0.0</gaugeMin>
+            <groupingSortProperties/>
             <indicatorBreakpoint1>0.5</indicatorBreakpoint1>
             <indicatorBreakpoint2>0.75</indicatorBreakpoint2>
             <indicatorHighColor>#54C254</indicatorHighColor>
@@ -61,6 +63,7 @@
             <expandOthers>false</expandOthers>
             <groupingColumn>CUST_CREATED_DATE</groupingColumn>
             <groupingColumn>BucketField_91963152</groupingColumn>
+            <groupingSortProperties/>
             <legendPosition>Bottom</legendPosition>
             <report>Recruitig_Reports_Folder/Opened_vs_Closed_vacancies</report>
             <showPercentage>false</showPercentage>
@@ -71,7 +74,7 @@
     </rightSection>
     <runningUser>admin@demo2recr.com</runningUser>
     <textColor>#000000</textColor>
-    <title>Recruiter&#39;s Dashboard</title>
+    <title>Recruiter Dashboard</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>

@@ -1,0 +1,2267 @@
+[
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493734,
+            "changeTime": 1569574493734,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493739,
+            "changeTime": 1569574493739,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493962,
+            "changeTime": 1569574493962,
+            "contentHash": "044d2261dd8424bfff5ca5b0fb8557f1e46945b8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\applications",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\applications",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493742,
+            "changeTime": 1569574493742,
+            "contentHash": "e01c530c3177a7affa67b7bff1c3719b912da749",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\applications\\Recruiting.app-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\applications\\Recruiting.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 484,
+            "modifiedTime": 1569575623458,
+            "changeTime": 1569575626618,
+            "contentHash": "3f6b14d800a1017ff41defc03df9b0f55cc8a772",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569577350568,
+            "changeTime": 1569577350568,
+            "contentHash": "e117828d92c11fc4247d4be7187802a1241791c8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\CandidateTool.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\CandidateTool.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 749,
+            "modifiedTime": 1569575623699,
+            "changeTime": 1569575626583,
+            "contentHash": "aad69d7f1dcb06545ccc3daa4bd9727ec7a761c6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\CandidateTool.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\CandidateTool.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 196,
+            "modifiedTime": 1569574493747,
+            "changeTime": 1569574493747,
+            "contentHash": "34ac876c9a77e6ded4045112b6e6456eb1cd21fb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\ManageVacanciesExt.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\ManageVacanciesExt.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9607,
+            "modifiedTime": 1569576961740,
+            "changeTime": 1569576961747,
+            "contentHash": "07f43e096afb865e7f52343d5bd6119ab24e8fa2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\ManageVacanciesExt.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\ManageVacanciesExt.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 201,
+            "modifiedTime": 1569574493751,
+            "changeTime": 1569574493751,
+            "contentHash": "7e2deb7b019427a30ee880b958fcc83a827fc22d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyCandidatesExt.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyCandidatesExt.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2664,
+            "modifiedTime": 1569577178179,
+            "changeTime": 1569577178184,
+            "contentHash": "6458b94440eebfd4c5861b57db131ff03fbc2010",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyCandidatesExt.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyCandidatesExt.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1569574493754,
+            "changeTime": 1569574493754,
+            "contentHash": "28f7346530a48fd24372c2bfd8924a042e1cca16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyVacanciesExt.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyVacanciesExt.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2788,
+            "modifiedTime": 1569575623655,
+            "changeTime": 1569575626581,
+            "contentHash": "883dbf0d21547e37e995a55ce451dfca5066ca5d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyVacanciesExt.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\MyVacanciesExt.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1569574493758,
+            "changeTime": 1569574493758,
+            "contentHash": "28f7346530a48fd24372c2bfd8924a042e1cca16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\RecruitmentConstants.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\RecruitmentConstants.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 590,
+            "modifiedTime": 1569575623694,
+            "changeTime": 1569575626572,
+            "contentHash": "6d92d093dbd2896a0d4d33b45a46014ea18d525f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\RecruitmentConstants.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\RecruitmentConstants.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 203,
+            "modifiedTime": 1569574493761,
+            "changeTime": 1569574493761,
+            "contentHash": "0c69fa564294502dff5e58f11933373375bfb05d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestManageVacanciesExt.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestManageVacanciesExt.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7477,
+            "modifiedTime": 1569577178188,
+            "changeTime": 1569577178194,
+            "contentHash": "ad9654624b5de6dc548d1b5061741c60ba9030be",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestManageVacanciesExt.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestManageVacanciesExt.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 205,
+            "modifiedTime": 1569574493765,
+            "changeTime": 1569574493765,
+            "contentHash": "2d2e5995a1686498df01ac45f5ffc086ff894ac9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyCandidatesExt.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyCandidatesExt.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6992,
+            "modifiedTime": 1569577178168,
+            "changeTime": 1569577178175,
+            "contentHash": "36d890e96f87b2e15fa051dc54e0f17b33e45cda",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyCandidatesExt.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyCandidatesExt.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1569574493768,
+            "changeTime": 1569574493768,
+            "contentHash": "28f7346530a48fd24372c2bfd8924a042e1cca16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyVacanciesExt.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyVacanciesExt.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7814,
+            "modifiedTime": 1569577250464,
+            "changeTime": 1569577250472,
+            "contentHash": "ff304062c345804cac478b4874ca0ae00b9b882e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyVacanciesExt.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestMyVacanciesExt.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1569574493772,
+            "changeTime": 1569574493772,
+            "contentHash": "28f7346530a48fd24372c2bfd8924a042e1cca16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestVacancyApexSharing.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestVacancyApexSharing.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5063,
+            "modifiedTime": 1569577350559,
+            "changeTime": 1569577350568,
+            "contentHash": "491481d2ed18e270af33e9f6eaa3dce09f4a93ce",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestVacancyApexSharing.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\TestVacancyApexSharing.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1569574493776,
+            "changeTime": 1569574493776,
+            "contentHash": "28f7346530a48fd24372c2bfd8924a042e1cca16",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\VacancyTool.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\VacancyTool.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1523,
+            "modifiedTime": 1569576694540,
+            "changeTime": 1569576694547,
+            "contentHash": "fae4dadf7c54d6a75012691fb794aa284bfe0799",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\VacancyTool.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\classes\\VacancyTool.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 194,
+            "modifiedTime": 1569574493779,
+            "changeTime": 1569574493779,
+            "contentHash": "38afde925b274ae57f567cd53fcebd60e5d22d92",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\dashboards",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\dashboards",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493781,
+            "changeTime": 1569574493781,
+            "contentHash": "65024a869152c29cdce8e22e865b6192f479d33a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\dashboards\\Recruiter_s_Public_Dashboard",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\dashboards\\Recruiter_s_Public_Dashboard",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493781,
+            "changeTime": 1569574493781,
+            "contentHash": "6833a72861e09387317cf49a42bc126a6d2c41ba",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\dashboards\\Recruiter_s_Public_Dashboard\\Recruiter_Dashboard.dashboard-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\dashboards\\Recruiter_s_Public_Dashboard\\Recruiter_Dashboard.dashboard-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3632,
+            "modifiedTime": 1569575623403,
+            "changeTime": 1569575626620,
+            "contentHash": "3b55c019953c8706b6af02b2be9ac24d05d987a1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493791,
+            "changeTime": 1569574493791,
+            "contentHash": "8f95db015a1bee3b2a81ec9e67e8cf3a71bd15d6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Cancel_Vacancy.flowDefinition-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Cancel_Vacancy.flowDefinition-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 171,
+            "modifiedTime": 1569575623511,
+            "changeTime": 1569575626609,
+            "contentHash": "84016bd12773aae2340e6057aede8139cb16f930",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Candidate_Process.flowDefinition-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Candidate_Process.flowDefinition-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 171,
+            "modifiedTime": 1569575623508,
+            "changeTime": 1569575626612,
+            "contentHash": "84016bd12773aae2340e6057aede8139cb16f930",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Hire_Candidate.flowDefinition-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Hire_Candidate.flowDefinition-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 171,
+            "modifiedTime": 1569575623505,
+            "changeTime": 1569575626613,
+            "contentHash": "795cc139f192885d653394326c2a130b7c62654a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\New_Vacancy.flowDefinition-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\New_Vacancy.flowDefinition-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 171,
+            "modifiedTime": 1569575623501,
+            "changeTime": 1569575626611,
+            "contentHash": "84016bd12773aae2340e6057aede8139cb16f930",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Screen_Close_Vacancy.flowDefinition-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flowDefinitions\\Screen_Close_Vacancy.flowDefinition-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 171,
+            "modifiedTime": 1569575623497,
+            "changeTime": 1569575626614,
+            "contentHash": "795cc139f192885d653394326c2a130b7c62654a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493799,
+            "changeTime": 1569574493799,
+            "contentHash": "023e8ee641afb0fffd98efbc49a50b2d221d9c7d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Cancel_Vacancy.flow-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Cancel_Vacancy.flow-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3867,
+            "modifiedTime": 1569575623484,
+            "changeTime": 1569575626602,
+            "contentHash": "6056491b6b4ce30fa7ac2e7910519082b96aaeb2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Candidate_Process.flow-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Candidate_Process.flow-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6309,
+            "modifiedTime": 1569575623480,
+            "changeTime": 1569575626605,
+            "contentHash": "5244a3656aecf8c556152174793977704b9a7aae",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Hire_Candidate.flow-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Hire_Candidate.flow-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6906,
+            "modifiedTime": 1569575623463,
+            "changeTime": 1569575626600,
+            "contentHash": "e5897b3574ca9ea249b026e54608046077bca045",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\New_Vacancy.flow-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\New_Vacancy.flow-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 12764,
+            "modifiedTime": 1569575623472,
+            "changeTime": 1569575626604,
+            "contentHash": "5ff48951e3ad5e3c8ecdcee538a30d99b4d9e7e9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Screen_Close_Vacancy.flow-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\flows\\Screen_Close_Vacancy.flow-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8126,
+            "modifiedTime": 1569575623491,
+            "changeTime": 1569575626603,
+            "contentHash": "a33a85947d999dc710fa7bb1376c943fd71dadc3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493815,
+            "changeTime": 1569574493815,
+            "contentHash": "cd369fdf693da692ac027c7786c198f996b3b6e9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-All Candidate Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-All Candidate Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4335,
+            "modifiedTime": 1569575623413,
+            "changeTime": 1569575626563,
+            "contentHash": "e72683776eae3659247838c8e1e94b72a0e3c772",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-Candidate Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-Candidate Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6180,
+            "modifiedTime": 1569575623432,
+            "changeTime": 1569575626566,
+            "contentHash": "f6ada32dfb0ffe75e7f3013ad4d9e753a8d89d0c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-Manager Candidate Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-Manager Candidate Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4742,
+            "modifiedTime": 1569575623437,
+            "changeTime": 1569575626568,
+            "contentHash": "d7afc4ceb010af107438bccaf981182528a9b4bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-Recruiting Manager Candidate Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Candidate__c-Recruiting Manager Candidate Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4905,
+            "modifiedTime": 1569575623422,
+            "changeTime": 1569575626565,
+            "contentHash": "dd7dfe57839a355d167dd5412de287e1aa8da7bf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\VacancyCandidateAssociation__c-VacancyCandidateAssociation Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\VacancyCandidateAssociation__c-VacancyCandidateAssociation Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2593,
+            "modifiedTime": 1569575623417,
+            "changeTime": 1569575626561,
+            "contentHash": "dc848f8751de75bb4b08b709a30fa365b3565752",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Vacancy__c-All Vacancy Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Vacancy__c-All Vacancy Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 5701,
+            "modifiedTime": 1569575623428,
+            "changeTime": 1569575626569,
+            "contentHash": "98d3aa97267cda4f7f4fc96d8c47de5ec7d8dba7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Vacancy__c-Recruiter Vacancy Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Vacancy__c-Recruiter Vacancy Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 7024,
+            "modifiedTime": 1569575623442,
+            "changeTime": 1569575626564,
+            "contentHash": "95957eb2f99558134079d03131a4989d9e26598e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Vacancy__c-Vacancy Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\layouts\\Vacancy__c-Vacancy Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6083,
+            "modifiedTime": 1569575623447,
+            "changeTime": 1569575626570,
+            "contentHash": "6437cee185963d1209a49618960bcca32454539e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493879,
+            "changeTime": 1569574493879,
+            "contentHash": "5aade90459b1f79cb9df708ec0ee27ca3c56c12f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493858,
+            "changeTime": 1569574493858,
+            "contentHash": "31db12692b8ee4beceacd21f17ff6fe61d7e21b2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\Candidate__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\Candidate__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 7685,
+            "modifiedTime": 1569575623231,
+            "changeTime": 1569575626532,
+            "contentHash": "fe0a0837bc69e680475b8c823f00b945feb2579e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\compactLayouts",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\compactLayouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493831,
+            "changeTime": 1569574493831,
+            "contentHash": "5c71f5723d51eac92bcd529d2a92ca980f19291b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\compactLayouts\\Candidate_Compact_Layout.compactLayout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\compactLayouts\\Candidate_Compact_Layout.compactLayout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 401,
+            "modifiedTime": 1569575623234,
+            "changeTime": 1569575626506,
+            "contentHash": "b9f73b65afbae1e126740f3972a073f52861a2ad",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493856,
+            "changeTime": 1569574493856,
+            "contentHash": "d7fa666aa654dc480e5e037e9e05004f04c1a8e5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Comments__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Comments__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 314,
+            "modifiedTime": 1569575623238,
+            "changeTime": 1569575626522,
+            "contentHash": "bdd245ac865f8a851d5165513dbc68f33e7046a6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Email__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Email__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 356,
+            "modifiedTime": 1569575623240,
+            "changeTime": 1569575626518,
+            "contentHash": "20ca89d49ecf9606a6d2db4317f04ab53b7c8ceb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\FirstName__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\FirstName__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 421,
+            "modifiedTime": 1569575623242,
+            "changeTime": 1569575626521,
+            "contentHash": "5f7b4cb59c39361bc939476f8305ff56f685276c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\IsDisqualified__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\IsDisqualified__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 445,
+            "modifiedTime": 1569575623244,
+            "changeTime": 1569575626529,
+            "contentHash": "bdaa6f16a717550ce657508dcee5e19781e24408",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\IsHired__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\IsHired__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 420,
+            "modifiedTime": 1569575623246,
+            "changeTime": 1569575626525,
+            "contentHash": "e75078ff0e71269bdec4f175c210f9fe266d36a1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\LastName__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\LastName__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 418,
+            "modifiedTime": 1569575623248,
+            "changeTime": 1569575626520,
+            "contentHash": "8faa946640b3f0f4a0623456669daea19bbff385",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Location__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Location__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 925,
+            "modifiedTime": 1569575623250,
+            "changeTime": 1569575626528,
+            "contentHash": "bf8943430741f9d192a548bd2c89a0295a22a7d4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Number_of_assigned_Vacancies__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Number_of_assigned_Vacancies__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 456,
+            "modifiedTime": 1569575623251,
+            "changeTime": 1569575626517,
+            "contentHash": "29ee069f59f0ce01eba509ce0e928d394840f7b2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Recruiter__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Recruiter__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 822,
+            "modifiedTime": 1569575623253,
+            "changeTime": 1569575626530,
+            "contentHash": "992fadf7cbebfd0db70ac6a1c02bbb61fd7ff04a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Salary__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Salary__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 505,
+            "modifiedTime": 1569575623256,
+            "changeTime": 1569575626523,
+            "contentHash": "1ad9955dea0270f68bb943501e49d311e1a17e52",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Status__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1151,
+            "modifiedTime": 1569575623258,
+            "changeTime": 1569575626515,
+            "contentHash": "ead1e4f2de7ae2901b0154508089c77663a07cb5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Vacancies__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\fields\\Vacancies__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 881,
+            "modifiedTime": 1569575623259,
+            "changeTime": 1569575626526,
+            "contentHash": "4314a65f061f33e3d7f1e5a1a5c7a85743387412",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493867,
+            "changeTime": 1569574493867,
+            "contentHash": "5918a09b6795f1b1969ab62f11909b42a848db85",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 474,
+            "modifiedTime": 1569575623262,
+            "changeTime": 1569575626511,
+            "contentHash": "a0f06b97ce8e06250c049cb90c8879720b2192b8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\All_validated.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\All_validated.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 565,
+            "modifiedTime": 1569575623264,
+            "changeTime": 1569575626512,
+            "contentHash": "2ad7411e639295176b0cd01b879e146db0f52a99",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\My_Candidates.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\My_Candidates.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 385,
+            "modifiedTime": 1569575623266,
+            "changeTime": 1569575626514,
+            "contentHash": "7039d446b2ad877499815fa2aa9df24fde141078",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\Not_validated_by_HR.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\Not_validated_by_HR.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 701,
+            "modifiedTime": 1569575623268,
+            "changeTime": 1569575626507,
+            "contentHash": "f9f0e63aa0efd5019767d3a56cd312c799c139ae",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\Unassigned_Candidates.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Candidate__c\\listViews\\Unassigned_Candidates.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 692,
+            "modifiedTime": 1569575623270,
+            "changeTime": 1569575626509,
+            "contentHash": "a841121372b90e8498cc197258ca53e23cff557f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493872,
+            "changeTime": 1569574493872,
+            "contentHash": "53f4367c9d7c4870e2cd312cde26c803a0f0fe7c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493877,
+            "changeTime": 1569574493877,
+            "contentHash": "71f42c34e2c05bfafe5db219af6b22007693f7bc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields\\Candidate_Details__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields\\Candidate_Details__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 562,
+            "modifiedTime": 1569575623196,
+            "changeTime": 1569575626502,
+            "contentHash": "9c9629b2a3c4a5236ab82037ca95c23761f800e7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields\\Candidate__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields\\Candidate__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1013,
+            "modifiedTime": 1569575623197,
+            "changeTime": 1569575626504,
+            "contentHash": "9265c978107da691e2f12362c75576ee0cd21195",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields\\Vacancy__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\fields\\Vacancy__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1433,
+            "modifiedTime": 1569575623201,
+            "changeTime": 1569575626501,
+            "contentHash": "826d49d4152f01e43aa65de47b03caec837fe274",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\VacancyCandidateAssociation__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\VacancyCandidateAssociation__c\\VacancyCandidateAssociation__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 5218,
+            "modifiedTime": 1569575623193,
+            "changeTime": 1569575626505,
+            "contentHash": "9b9be93804dce1ede714372182afa6f5c7de8755",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493923,
+            "changeTime": 1569574493923,
+            "contentHash": "55b1859f94d3942e22b5b9329228cbbe9b1e02bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\compactLayouts",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\compactLayouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493882,
+            "changeTime": 1569574493882,
+            "contentHash": "8b7e7938baf042ebd3b8db994898cdb1f49b9dc3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\compactLayouts\\Vacancy_Compact_Layout.compactLayout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\compactLayouts\\Vacancy_Compact_Layout.compactLayout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 392,
+            "modifiedTime": 1569575623314,
+            "changeTime": 1569575626534,
+            "contentHash": "f8f7df4059b1cd41f5a4fdc5634455e5b66d0b63",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493911,
+            "changeTime": 1569574493911,
+            "contentHash": "98db43e9185af21720bdfd7214f1b4f6f4d95e14",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Candidate__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Candidate__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 799,
+            "modifiedTime": 1569575623317,
+            "changeTime": 1569575626556,
+            "contentHash": "4c3780a1a90f64cbdd8de7d1a976c4f052d0296f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Comments__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Comments__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 314,
+            "modifiedTime": 1569575623319,
+            "changeTime": 1569575626549,
+            "contentHash": "bdd245ac865f8a851d5165513dbc68f33e7046a6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\DaysLeftToClose__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\DaysLeftToClose__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 607,
+            "modifiedTime": 1569575623321,
+            "changeTime": 1569575626553,
+            "contentHash": "b105914be45c7d642c69fb660c848dcf33439264",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\DaysOpen__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\DaysOpen__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 582,
+            "modifiedTime": 1569575623324,
+            "changeTime": 1569575626551,
+            "contentHash": "9b4d7e69de1ad7b1972610e28d6671767dea3bdd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Description__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Description__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 377,
+            "modifiedTime": 1569575623326,
+            "changeTime": 1569575626554,
+            "contentHash": "314efd384965621348f658762423fd1e70a6fca8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Is_Assigned_To_Me__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Is_Assigned_To_Me__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 468,
+            "modifiedTime": 1569575623328,
+            "changeTime": 1569575626547,
+            "contentHash": "39e487db1178f712de1b5d4782bd04a517bd368a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Level__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Level__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1307,
+            "modifiedTime": 1569575623330,
+            "changeTime": 1569575626545,
+            "contentHash": "c2c2e44bce459b51bb001114be43a1faf029a8a5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Number_Of_Candidates__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Number_Of_Candidates__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 438,
+            "modifiedTime": 1569575623331,
+            "changeTime": 1569575626543,
+            "contentHash": "3809a66319d62a6809b61f70916c2c08a71e6b50",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\PromoDescription__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\PromoDescription__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 452,
+            "modifiedTime": 1569575623333,
+            "changeTime": 1569575626541,
+            "contentHash": "727376a79c27d703d80d57061566b2c065d6fc4a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\PublishOnPromoSite__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\PublishOnPromoSite__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 429,
+            "modifiedTime": 1569575623335,
+            "changeTime": 1569575626548,
+            "contentHash": "db8372df07b8b8c8b9a3161e035f1c1e019943f0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Responsible__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Responsible__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 941,
+            "modifiedTime": 1569575623336,
+            "changeTime": 1569575626557,
+            "contentHash": "50c2dabfa3553ccf446b40c2ae56c0693f3f9691",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\StartDate__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\StartDate__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 370,
+            "modifiedTime": 1569575623338,
+            "changeTime": 1569575626540,
+            "contentHash": "ef705e1fdaefeeb77001ce4587ff3c87b9545590",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Status__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1409,
+            "modifiedTime": 1569575623340,
+            "changeTime": 1569575626552,
+            "contentHash": "ae39c34a03b6dcf86aefdd32a292b404c8738e38",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Title__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\fields\\Title__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 408,
+            "modifiedTime": 1569575623342,
+            "changeTime": 1569575626544,
+            "contentHash": "ff6c71ddce0400c9fa137ba184ac90df7d51f3e3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493919,
+            "changeTime": 1569574493919,
+            "contentHash": "8f37c36def8289ed2345456ab94bd562e4fed999",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 590,
+            "modifiedTime": 1569575623345,
+            "changeTime": 1569575626538,
+            "contentHash": "915fe509ad009b81eedac9f1a71293ff0063cab4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\Assigned_To_Me.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\Assigned_To_Me.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 630,
+            "modifiedTime": 1569574493916,
+            "changeTime": 1569574493916,
+            "contentHash": "ce380320594fff7634af3d9dd4fef7075e27d54e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\Ready_to_go_Vacancies.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\Ready_to_go_Vacancies.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 723,
+            "modifiedTime": 1569575623347,
+            "changeTime": 1569575626535,
+            "contentHash": "a24d3ab3b0e95a15b7de5260a9ed7803a185f474",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\Unassigned_Vacancies.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\listViews\\Unassigned_Vacancies.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 689,
+            "modifiedTime": 1569575623349,
+            "changeTime": 1569575626537,
+            "contentHash": "ab05740c409b0190af46eb9c1d9a468b32e5c49e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\Vacancy__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\Vacancy__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 7791,
+            "modifiedTime": 1569575623312,
+            "changeTime": 1569575626559,
+            "contentHash": "4698dbbd9ed0078225f6a78343bec3b2005a2b2c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\validationRules",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\validationRules",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493921,
+            "changeTime": 1569574493921,
+            "contentHash": "7eaf6ce4f8bb9f7a6ea5ea0e13a7ae037fd50bd3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\validationRules\\Allowed_only_HIRED_candidates.validationRule-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\validationRules\\Allowed_only_HIRED_candidates.validationRule-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 479,
+            "modifiedTime": 1569575623352,
+            "changeTime": 1569575626533,
+            "contentHash": "b8a33dcb2e1ede66756afb395ee7782544ba1873",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493928,
+            "changeTime": 1569574493928,
+            "contentHash": "202a7a4051bd594a4bb30df8807fb6f7194a18a2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Cancel.webLink-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Cancel.webLink-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 792,
+            "modifiedTime": 1569574493924,
+            "changeTime": 1569574493924,
+            "contentHash": "7b8dfbcc074e2c16027da18438d2c8aa220e7f42",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Cancel_list.webLink-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Cancel_list.webLink-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 588,
+            "modifiedTime": 1569574493926,
+            "changeTime": 1569574493926,
+            "contentHash": "44f9c5207b68fc37a7624bad5ab158ae909f0386",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Close.webLink-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Close.webLink-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 507,
+            "modifiedTime": 1569574493928,
+            "changeTime": 1569574493928,
+            "contentHash": "3c8e345eca1de6cab6fec1be1d556ca8ca10a662",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Close_List.webLink-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objects\\Vacancy__c\\webLinks\\Close_List.webLink-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 567,
+            "modifiedTime": 1569574493929,
+            "changeTime": 1569574493929,
+            "contentHash": "2fcf853ee69091aa88536c8fec911a98d341a7fc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493824,
+            "changeTime": 1569574493824,
+            "contentHash": "8221a1b935916582a8eec95be9a706355bd7996a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Candidate__c-en_US",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Candidate__c-en_US",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493818,
+            "changeTime": 1569574493818,
+            "contentHash": "9fc8758c1bd72d0cda6a22d4b2fec31046aafa6b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Candidate__c-en_US\\Candidate__c-en_US.objectTranslation-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Candidate__c-en_US\\Candidate__c-en_US.objectTranslation-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1616,
+            "modifiedTime": 1569575623598,
+            "changeTime": 1569575626589,
+            "contentHash": "bc9abd526c07e011d976018de561583aad646451",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\VacancyCandidateAssociation__c-en_US",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\VacancyCandidateAssociation__c-en_US",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493821,
+            "changeTime": 1569574493821,
+            "contentHash": "d81fd23104ace8a13e56b72c37403785e6e2787f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\VacancyCandidateAssociation__c-en_US\\VacancyCandidateAssociation__c-en_US.objectTranslation-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\VacancyCandidateAssociation__c-en_US\\VacancyCandidateAssociation__c-en_US.objectTranslation-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 620,
+            "modifiedTime": 1569575623573,
+            "changeTime": 1569575626577,
+            "contentHash": "c9f06a65e08431c92e819ccc404d2c37ad386579",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Vacancy__c-en_US",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Vacancy__c-en_US",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493824,
+            "changeTime": 1569574493824,
+            "contentHash": "066b242983c3e9f483d3ef79f113cc5eb267264d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Vacancy__c-en_US\\Vacancy__c-en_US.objectTranslation-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\objectTranslations\\Vacancy__c-en_US\\Vacancy__c-en_US.objectTranslation-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2022,
+            "modifiedTime": 1569575623523,
+            "changeTime": 1569575626599,
+            "contentHash": "68dcd8166f4e034f8195ae74f2521780f8448d95",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493940,
+            "changeTime": 1569574493940,
+            "contentHash": "2a5c14b4dad7142209cf1014e586f8bbb6d7b807",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\ManageVacancies.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\ManageVacancies.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5635,
+            "modifiedTime": 1569575623151,
+            "changeTime": 1569575626595,
+            "contentHash": "ba08729465999faf19083f036f501383256e6c20",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\ManageVacancies.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\ManageVacancies.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 203,
+            "modifiedTime": 1569574493933,
+            "changeTime": 1569574493933,
+            "contentHash": "f43b1687ef884f676b58c4b609954b8b3c9349d3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Candidates.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Candidates.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2231,
+            "modifiedTime": 1569575623158,
+            "changeTime": 1569575626596,
+            "contentHash": "d7c80357b8df4f0cd9fe4e157fb501a7bbf1eaa7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Candidates.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Candidates.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 295,
+            "modifiedTime": 1569574493937,
+            "changeTime": 1569574493937,
+            "contentHash": "2907b7353d05c4ec0d8bd8e58b7e521888e59791",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Vacancies.page",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Vacancies.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2204,
+            "modifiedTime": 1569575623145,
+            "changeTime": 1569575626598,
+            "contentHash": "5e1d0f3ff01ab8814a8a80a3d7587837188ca789",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Vacancies.page-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\pages\\My_Vacancies.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 294,
+            "modifiedTime": 1569574493941,
+            "changeTime": 1569574493941,
+            "contentHash": "31b6435539f560adbfbada84a2980e9b9e606b9e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493941,
+            "changeTime": 1569574493941,
+            "contentHash": "05565a66cde265e2c2bf5d49f07e9bdb1e712feb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493946,
+            "changeTime": 1569574493946,
+            "contentHash": "5d23b28f170eeb9eec4488111090e00996d75009",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder\\All_vacancies_by_status.report-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder\\All_vacancies_by_status.report-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 831,
+            "modifiedTime": 1569575623387,
+            "changeTime": 1569575626496,
+            "contentHash": "387f72aef81d722f969927967760ccb6e9f10571",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder\\Hired_Rate_Report_pOC.report-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder\\Hired_Rate_Report_pOC.report-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1845,
+            "modifiedTime": 1569575623382,
+            "changeTime": 1569575626499,
+            "contentHash": "63730dcc7f867e8fd668568e56aacfde59663004",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder\\Opened_vs_Closed_vacancies.report-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\reports\\Recruitig_Reports_Folder\\Opened_vs_Closed_vacancies.report-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1960,
+            "modifiedTime": 1569575623376,
+            "changeTime": 1569575626498,
+            "contentHash": "dcba7c0e8bafa6f447fe60abfd7b9f431fa739e4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493953,
+            "changeTime": 1569574493953,
+            "contentHash": "411075ffe8c5ce15485dbd9cc4989e5e0aa5cedf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\CEO.role-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\CEO.role-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 371,
+            "modifiedTime": 1569575623162,
+            "changeTime": 1569575626590,
+            "contentHash": "1e83118d1d7e517376b210fe11fc654f0c1e9b06",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\Manager.role-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\Manager.role-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 412,
+            "modifiedTime": 1569575623166,
+            "changeTime": 1569575626592,
+            "contentHash": "9a487c010a5c6a9375edd3a16a8ee116bafd18ca",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\Recruiter.role-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\Recruiter.role-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 430,
+            "modifiedTime": 1569575623169,
+            "changeTime": 1569575626594,
+            "contentHash": "296f622cf33484f0fcdcc79e1d29253d49ec2677",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\Recruiter_Manager.role-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\roles\\Recruiter_Manager.role-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 432,
+            "modifiedTime": 1569575623173,
+            "changeTime": 1569575626587,
+            "contentHash": "ff8c73d912723f31a6a91c9b862f795c99c3d667",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\sharingRules",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\sharingRules",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493957,
+            "changeTime": 1569574493957,
+            "contentHash": "7b42e18e66ebf783ac53bcfa434d12af985395c2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\sharingRules\\Candidate__c.sharingRules-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\sharingRules\\Candidate__c.sharingRules-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 103,
+            "modifiedTime": 1569575623738,
+            "changeTime": 1569575626616,
+            "contentHash": "32225169cd05d1435539f6e3fb94298ac65d4316",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\sharingRules\\Vacancy__c.sharingRules-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\sharingRules\\Vacancy__c.sharingRules-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 103,
+            "modifiedTime": 1569575623742,
+            "changeTime": 1569575626617,
+            "contentHash": "32225169cd05d1435539f6e3fb94298ac65d4316",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\tabs",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569574493960,
+            "changeTime": 1569574493960,
+            "contentHash": "dc17bf8dbe533c26e5f476e52a8ab6ac6b38086b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\tabs\\Candidate__c.tab-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\tabs\\Candidate__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 186,
+            "modifiedTime": 1569575623450,
+            "changeTime": 1569575626608,
+            "contentHash": "57433bab2c54fe80ed8e64f061dc03cbd1317c2f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\tabs\\Vacancy__c.tab-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\tabs\\Vacancy__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 190,
+            "modifiedTime": 1569575623454,
+            "changeTime": 1569575626606,
+            "contentHash": "c57b210f1f1651d38b3f4ddbb4e17519fd77f049",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569581950939,
+            "changeTime": 1569581950939,
+            "contentHash": "1c28699755b72b9713538b204d4c78dcbdc91b7e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyApexSharing.trigger",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyApexSharing.trigger",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1057,
+            "modifiedTime": 1569577710430,
+            "changeTime": 1569577710436,
+            "contentHash": "5951f4f42cd4a7e57b811d72989661d2cb538df6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyApexSharing.trigger-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyApexSharing.trigger-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 183,
+            "modifiedTime": 1569574493965,
+            "changeTime": 1569574493965,
+            "contentHash": "e6b0c1d6050d9775218b486242e79de262a51d3d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateDuplicatePreventer.trigger",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateDuplicatePreventer.trigger",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1497,
+            "modifiedTime": 1569577762474,
+            "changeTime": 1569577762480,
+            "contentHash": "0aa14703d61c495c14a66f96cdbd827005700f3a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateDuplicatePreventer.trigger-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateDuplicatePreventer.trigger-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 218,
+            "modifiedTime": 1569574493969,
+            "changeTime": 1569574493969,
+            "contentHash": "9926c9b36ce8f1af86faa8ed764b48062c4bf271",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateShareTrigger.trigger",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateShareTrigger.trigger",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1499,
+            "modifiedTime": 1569581809273,
+            "changeTime": 1569581809280,
+            "contentHash": "439b99eafacbf81df665c59d42fff7132d1ed551",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateShareTrigger.trigger-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyCandidateShareTrigger.trigger-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 183,
+            "modifiedTime": 1569574493972,
+            "changeTime": 1569574493972,
+            "contentHash": "e6b0c1d6050d9775218b486242e79de262a51d3d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyDuplicatePreventer.trigger",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyDuplicatePreventer.trigger",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3221,
+            "modifiedTime": 1569581950932,
+            "changeTime": 1569581950938,
+            "contentHash": "f2e70ab3e2535cf3979204f3fa491cb80d668761",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyDuplicatePreventer.trigger-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella\\force-app\\main\\default\\triggers\\VacancyDuplicatePreventer.trigger-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 209,
+            "modifiedTime": 1569574493975,
+            "changeTime": 1569574493975,
+            "contentHash": "835b955599cb5ec0206923a7f3204df94a279e5b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\yodok\\IdeaProjects\\laughing-umbrella",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1569581809350,
+            "changeTime": 1569581809350,
+            "contentHash": "99ed107890ddeba61920d719c38c2f5ea5eca0b9",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

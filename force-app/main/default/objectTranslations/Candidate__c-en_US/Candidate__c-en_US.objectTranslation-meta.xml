@@ -8,5 +8,45 @@
         <plural>true</plural>
         <value>Candidates</value>
     </caseValues>
+    <layouts>
+        <layout>All Candidate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Candidate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- My Vacancies --></label>
+            <section>My Vacancies</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manager Candidate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- My Vacancies --></label>
+            <section>My Vacancies</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Recruiting Manager Candidate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- My Vacancies --></label>
+            <section>My Vacancies</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

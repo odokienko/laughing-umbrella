@@ -5,7 +5,7 @@
     <description>Lists all open vacancies 
 where the candidate is proposed</description>
     <externalId>false</externalId>
-    <label>Vacancies</label>
+    <label>Vacancy</label>
     <lookupFilter>
         <active>true</active>
         <filterItems>

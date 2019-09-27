@@ -41,11 +41,23 @@
                 <behavior>Readonly</behavior>
                 <field>Comments__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Number_Of_Candidates__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Candidate__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Name</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>OwnerId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -73,7 +85,7 @@
                 <field>PublishOnPromoSite__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>PromoDescription__c</field>
             </layoutItems>
         </layoutColumns>
@@ -88,10 +100,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Responsible__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>OwnerId</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -141,13 +149,41 @@
         </platformActionListItems>
     </platformActionList>
     <quickActionList/>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <fields>NAME</fields>
+        <fields>FirstName__c</fields>
+        <fields>LastName__c</fields>
+        <fields>Comments__c</fields>
+        <fields>Email__c</fields>
+        <fields>Location__c</fields>
+        <fields>Salary__c</fields>
+        <fields>Status__c</fields>
+        <fields>OWNER.ALIAS</fields>
+        <fields>Number_of_assigned_Vacancies__c</fields>
+        <relatedList>Candidate__c.Vacancies__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <fields>Candidate__c.NAME</fields>
+        <fields>Candidate__c.FirstName__c</fields>
+        <fields>Candidate__c.LastName__c</fields>
+        <fields>Candidate__c.Comments__c</fields>
+        <fields>Candidate__c.Email__c</fields>
+        <fields>Candidate__c.Location__c</fields>
+        <fields>Candidate__c.Salary__c</fields>
+        <fields>Candidate__c.Status__c</fields>
+        <fields>Owner.CUSTENT_OWNER_ALIAS</fields>
+        <fields>Candidate__c.Number_of_assigned_Vacancies__c</fields>
+        <relatedList>VacancyCandidateAssociation__c.Vacancy__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h2o00000NHApz</masterLabel>
+        <masterLabel>00h2o00000l1boy</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

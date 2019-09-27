@@ -17,4 +17,7 @@
         <value>In-Process</value>
     </filters>
     <label>Ready to go Vacancies</label>
+    <sharedTo>
+        <role>Manager</role>
+    </sharedTo>
 </ListView>

@@ -45,10 +45,10 @@ public class TestMyVacanciesExt{
             MyVacanciesExt objMyVacanciesExt  = new MyVacanciesExt(stdCtr);
 
             Test.setCurrentPageReference(pref);  //vf page request
-            objMyVacanciesExt.onload();
+            objMyVacanciesExt.onLoad();
 
             // Assert 
-            System.assertEquals(candidate.Id, objMyVacanciesExt.candidate.Id);
+            System.assertEquals(candidate.Id, objMyVacanciesExt.Candidate.Id);
             System.assertEquals(0, objMyVacanciesExt.vacancies.size());
 
             objMyVacanciesExt.getSelected();
@@ -84,7 +84,7 @@ public class TestMyVacanciesExt{
             MyVacanciesExt objMyVacanciesExt  = new MyVacanciesExt(stdCtr);
 
             Test.setCurrentPageReference(pref);  //vf page request
-            objMyVacanciesExt.onload();
+            objMyVacanciesExt.onLoad();
 
             objMyVacanciesExt.vacancies[0].selected = true;
             objMyVacanciesExt.getSelected();
@@ -93,7 +93,7 @@ public class TestMyVacanciesExt{
             Test.stopTest();
 
             // Assert 
-            System.assertEquals(candidate.Id, objMyVacanciesExt.candidate.Id);
+            System.assertEquals(candidate.Id, objMyVacanciesExt.Candidate.Id);
             System.assertEquals(1, objMyVacanciesExt.vacancies.size());
 
             VacancyCandidateAssociation__c[] SelectedVacancies = [SELECT Id FROM VacancyCandidateAssociation__c WHERE Candidate__c = :candidate.Id AND Vacancy__c = :vacancy.Id];
@@ -130,10 +130,10 @@ public class TestMyVacanciesExt{
             MyVacanciesExt objMyVacanciesExt  = new MyVacanciesExt(stdCtr);
 
             Test.setCurrentPageReference(pref);  //vf page request
-            objMyVacanciesExt.onload();
+            objMyVacanciesExt.onLoad();
 
             // Assert
-            System.assertEquals(candidate.Id, objMyVacanciesExt.candidate.Id);
+            System.assertEquals(candidate.Id, objMyVacanciesExt.Candidate.Id);
             System.assertEquals(1, objMyVacanciesExt.vacancies.size());
 
             // Act
@@ -142,7 +142,7 @@ public class TestMyVacanciesExt{
             objMyVacanciesExt.Apply();
 
             // Assert
-            VacancyCandidateAssociation__c[] SelectedVacancies = [SELECT Id FROM VacancyCandidateAssociation__c WHERE Candidate__c = :candidate.Id AND Vacancy__c = :vacancy.id];
+            VacancyCandidateAssociation__c[] SelectedVacancies = [SELECT Id FROM VacancyCandidateAssociation__c WHERE Candidate__c = :candidate.Id AND Vacancy__c = :vacancy.Id];
             System.assertEquals(0, SelectedVacancies.size());
             Test.stopTest();
         } 
@@ -173,10 +173,10 @@ public class TestMyVacanciesExt{
             MyVacanciesExt objMyVacanciesExt  = new MyVacanciesExt(stdCtr);
 
             Test.setCurrentPageReference(pref);  //vf page request
-            objMyVacanciesExt.onload();
+            objMyVacanciesExt.onLoad();
 
             // Assert 
-            System.assertEquals(candidate.Id, objMyVacanciesExt.candidate.Id);
+            System.assertEquals(candidate.Id, objMyVacanciesExt.Candidate.Id);
             System.assertEquals(0, objMyVacanciesExt.vacancies.size());
 
             objMyVacanciesExt.getSelected();

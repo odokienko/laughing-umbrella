@@ -4,7 +4,7 @@
         <name>Set_Status_to_Closed</name>
         <label>Set Status to Closed</label>
         <locationX>210</locationX>
-        <locationY>616</locationY>
+        <locationY>583</locationY>
         <assignmentItems>
             <assignToReference>vacancy.Status__c</assignToReference>
             <operator>Assign</operator>
@@ -57,9 +57,6 @@
         <label>What about Candidates?</label>
         <locationX>335</locationX>
         <locationY>325</locationY>
-        <defaultConnector>
-            <targetReference>Cancel_this_Vacancy</targetReference>
-        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Has_Candidate_assigned</name>
@@ -150,7 +147,7 @@
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <connector>
-            <targetReference>Hire_Candidate</targetReference>
+            <targetReference>Set_Status_to_Closed</targetReference>
         </connector>
         <fields>
             <name>Please_select_Candidate</name>
@@ -170,35 +167,6 @@
     </screens>
     <startElementReference>getVacancy</startElementReference>
     <status>Active</status>
-    <subflows>
-        <name>Cancel_this_Vacancy</name>
-        <label>Cancel this Vacancy</label>
-        <locationX>584</locationX>
-        <locationY>414</locationY>
-        <flowName>Cancel_Vacancy</flowName>
-    </subflows>
-    <subflows>
-        <name>Hire_Candidate</name>
-        <label>Hire Candidate</label>
-        <locationX>68</locationX>
-        <locationY>570</locationY>
-        <connector>
-            <targetReference>Set_Status_to_Closed</targetReference>
-        </connector>
-        <flowName>Hire_Candidate</flowName>
-        <inputAssignments>
-            <name>selectedCandidateId</name>
-            <value>
-                <elementReference>selectedCandidateId</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <name>varVacancyId</name>
-            <value>
-                <elementReference>varVacancyId</elementReference>
-            </value>
-        </inputAssignments>
-    </subflows>
     <variables>
         <name>CandidateToHire</name>
         <dataType>SObject</dataType>

@@ -1,31 +1,29 @@
 trigger VacancyApexSharing on Vacancy__c (after insert, after update) {
-    List<Vacancy__Share> vacancyShrs  = new List<Vacancy__Share>();
-    List<Candidate__Share> candidateShrs  = new List<Candidate__Share>();
-    List<Vacancy__Share> sharesToDelete = [SELECT Id 
+    List<Vacancy__Share> vacancyShares = new List<Vacancy__Share>();
+    List<Vacancy__Share> sharesToDelete = [SELECT Id
                                             FROM Vacancy__Share 
-                                            WHERE ParentId IN :trigger.newMap.keyset() 
+                                            WHERE ParentId IN :Trigger.newMap.keySet()
                                             AND RowCause = 'Manual'];
     Vacancy__Share recruiterShr;
-    Candidate__Share candidateShr;
-    
-    for(Vacancy__c vacancy : trigger.new){
-        if (vacancy.Status__c == 'In-Process' && vacancy.Responsible__c != null) {
+
+    for(Vacancy__c Vacancy : Trigger.new){
+        if (Vacancy.Responsible__c != null) {
             recruiterShr = new Vacancy__Share(
-                ParentId = vacancy.Id,
-                UserOrGroupId = vacancy.Responsible__c,
+                ParentId = Vacancy.Id,
+                UserOrGroupId = Vacancy.Responsible__c,
                 AccessLevel = 'Edit',
                 RowCause = Schema.Vacancy__Share.RowCause.Manual
             );
             
-            vacancyShrs.add(recruiterShr);
+            vacancyShares.add(recruiterShr);
         }
     }
     
     if(!sharesToDelete.isEmpty()){
-        Database.Delete(sharesToDelete, false);
+        Database.delete(sharesToDelete, false);
     }
 
-    if (vacancyShrs.size() > 0) {
-        Database.upsert(vacancyShrs,false);
+    if (vacancyShares.size() > 0) {
+        Database.upsert(vacancyShares,false);
     }
 }

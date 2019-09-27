@@ -1,49 +1,41 @@
 public class VacancyTool {
-    public static void splitVacanciesToClosedCancelled (
+    public static void splitVacanciesToClosedAndCancelled(
         List<Vacancy__c> sourceVacancyList,
         List<Vacancy__c> closedVacancyList,
         List<Vacancy__c> cancelledVacancyList
     ) {
-        for (Vacancy__c vacancy : sourceVacancyList) {
-            if (!isOpened(vacancy)) {
+        for (Vacancy__c Vacancy : sourceVacancyList) {
+            if (!isOpened(Vacancy)) {
                 continue;
             }
 
-            if (canBeClosed(vacancy)) {
-                vacancy.Status__c = RecruitmentConstants.VACANCY_STATUS_CLOSED;
-                closedVacancyList.add(vacancy);
+            if (canBeClosed(Vacancy)) {
+                Vacancy.Status__c = RecruitmentConstants.VACANCY_STATUS_CLOSED;
+                closedVacancyList.add(Vacancy);
             } else {
-                vacancy.Status__c = RecruitmentConstants.VACANCY_STATUS_CENCELLED;
-                cancelledVacancyList.add(vacancy);
+                Vacancy.Status__c = RecruitmentConstants.VACANCY_STATUS_CANCELLED;
+                cancelledVacancyList.add(Vacancy);
             }
         }
     }
 
     public static void trySetVacancyCancelledStatus (List<Vacancy__c> sourceVacancyList, List<Vacancy__c> cancelledVacancyList) {
-        for (Vacancy__c vacancy : sourceVacancyList) {
-            if (!isOpened(vacancy)) {
+        for (Vacancy__c Vacancy : sourceVacancyList) {
+            if (!isOpened(Vacancy)) {
                 continue;
             }
 
-            vacancy.Status__c = RecruitmentConstants.VACANCY_STATUS_CENCELLED;
-            cancelledVacancyList.add(vacancy);
+            Vacancy.Status__c = RecruitmentConstants.VACANCY_STATUS_CANCELLED;
+            cancelledVacancyList.add(Vacancy);
         }
     }
 
-    public static boolean isOpened(Vacancy__c vacancy) {
-        return vacancy.Status__c != RecruitmentConstants.VACANCY_STATUS_CENCELLED
-            && vacancy.Status__c != RecruitmentConstants.VACANCY_STATUS_CLOSED;
+    public static Boolean isOpened(Vacancy__c Vacancy) {
+        return Vacancy.Status__c != RecruitmentConstants.VACANCY_STATUS_CANCELLED
+            && Vacancy.Status__c != RecruitmentConstants.VACANCY_STATUS_CLOSED;
     }
 
-    public static boolean isCancelled(Vacancy__c vacancy) {
-        return (vacancy.Candidate__c == null || String.IsEmpty(vacancy.Candidate__c)) && vacancy.Status__c == RecruitmentConstants.VACANCY_STATUS_CENCELLED;
-    }
-
-    public static boolean isClosed(Vacancy__c vacancy) {
-        return vacancy.Candidate__c != null && !String.IsEmpty(vacancy.Candidate__c) && vacancy.Status__c == RecruitmentConstants.VACANCY_STATUS_CLOSED;
-    }
-
-    public static boolean canBeClosed(Vacancy__c vacancy) {
-        return isOpened(vacancy) && vacancy.Candidate__c != null && !String.IsEmpty(vacancy.Candidate__c);
+    public static Boolean canBeClosed(Vacancy__c Vacancy) {
+        return isOpened(Vacancy) && Vacancy.Candidate__c != null && !String.isEmpty(Vacancy.Candidate__c);
     }
 }

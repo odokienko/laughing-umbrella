@@ -70,7 +70,7 @@ public class TestMyCandidatesExt{
             MyCandidatesExt objMyCandidatesExt  = new MyCandidatesExt(stdCtr);
 
             Test.setCurrentPageReference(pref);  //vf page request
-            objMyCandidatesExt.onload();
+            objMyCandidatesExt.onLoad();
 
             objMyCandidatesExt.candidates[0].selected = true;
             objMyCandidatesExt.getSelected();
@@ -79,7 +79,7 @@ public class TestMyCandidatesExt{
             Test.stopTest();
 
             // Assert 
-            System.assertEquals(vacancy.Id, objMyCandidatesExt.vacancy.Id);
+            System.assertEquals(vacancy.Id, objMyCandidatesExt.Vacancy.Id);
             System.assertEquals('In-Process', vacancy.Status__c);
             System.assertEquals(recruiter.Id, vacancy.Responsible__c);
             System.assertEquals(1, objMyCandidatesExt.candidates.size());
@@ -114,7 +114,7 @@ public class TestMyCandidatesExt{
             MyCandidatesExt objMyCandidatesExt  = new MyCandidatesExt(stdCtr);
 
             Test.setCurrentPageReference(pref);  //vf page request
-            objMyCandidatesExt.onload();
+            objMyCandidatesExt.onLoad();
 
             // Assert
             System.assertEquals(1, objMyCandidatesExt.candidates.size());
@@ -157,7 +157,7 @@ public class TestMyCandidatesExt{
             MyCandidatesExt objMyCandidatesExt  = new MyCandidatesExt(stdCtr);
 
             Test.setCurrentPageReference(pref);  //vf page request
-            objMyCandidatesExt.onload();
+            objMyCandidatesExt.onLoad();
 
             // Assert
             System.assertEquals(0, objMyCandidatesExt.candidates.size());

@@ -24,17 +24,17 @@ public class TestVacancyApexSharing{
 		// Arrange
         User manager = [SELECT Id FROM User WHERE Alias='muser' LIMIT 1];
         User recruiter = [SELECT Id FROM User WHERE Alias='ruser' LIMIT 1];
-        Vacancy__c vacancy;
+        Vacancy__c Vacancy;
         List<Vacancy__c> actualVacancy;
 
         System.runAs(manager) {
-            vacancy = new Vacancy__c();
-            insert vacancy;
+            Vacancy = new Vacancy__c();
+            insert Vacancy;
         }
         
         System.runAs(recruiter) {
             // Act
-            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :vacancy.Id LIMIT 1];
+            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :Vacancy.Id LIMIT 1];
             System.assertEquals(0, actualVacancy.size());
         } 
     }
@@ -43,17 +43,17 @@ public class TestVacancyApexSharing{
 		// Arrange
         User manager = [SELECT Id FROM User WHERE Alias='muser' LIMIT 1];
         User recruiter = [SELECT Id FROM User WHERE Alias='ruser' LIMIT 1];
-        Vacancy__c vacancy;
+        Vacancy__c Vacancy;
         List<Vacancy__c> actualVacancy;
 
         System.runAs(manager) {
-            vacancy = new Vacancy__c(Responsible__c=recruiter.Id);
-            insert vacancy;
+            Vacancy = new Vacancy__c(Responsible__c=recruiter.Id);
+            insert Vacancy;
         }
         
         System.runAs(recruiter) {
             // Act
-            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :vacancy.Id LIMIT 1];
+            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :Vacancy.Id LIMIT 1];
             System.assertEquals(1, actualVacancy.size());
         } 
     }
@@ -62,28 +62,28 @@ public class TestVacancyApexSharing{
 		// Arrange
         User manager = [SELECT Id FROM User WHERE Alias='muser' LIMIT 1];
         User recruiter = [SELECT Id FROM User WHERE Alias='ruser' LIMIT 1];
-        Vacancy__c vacancy;
+        Vacancy__c Vacancy;
         List<Vacancy__c> actualVacancy;
 
         System.runAs(manager) {
-            vacancy = new Vacancy__c(Responsible__c=recruiter.Id);
-            insert vacancy;
+            Vacancy = new Vacancy__c(Responsible__c=recruiter.Id);
+            insert Vacancy;
         }
         
         System.runAs(recruiter) {
             // Act
-            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :vacancy.Id LIMIT 1];
+            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :Vacancy.Id LIMIT 1];
             System.assertEquals(1, actualVacancy.size());
         }
         
         System.runAs(manager) {
-            vacancy.Responsible__c=null;
-            update vacancy;
+            Vacancy.Responsible__c=null;
+            update Vacancy;
         }
         
         System.runAs(recruiter) {
             // Act
-            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :vacancy.Id LIMIT 1];
+            actualVacancy = [SELECT Id FROM Vacancy__c WHERE Id = :Vacancy.Id LIMIT 1];
             System.assertEquals(0, actualVacancy.size());
         }
     }
@@ -92,52 +92,46 @@ public class TestVacancyApexSharing{
 		// Arrange
         User manager = [SELECT Id FROM User WHERE Alias='muser' LIMIT 1];
         User recruiter = [SELECT Id FROM User WHERE Alias='ruser' LIMIT 1];
-        Vacancy__c vacancy;
-        Candidate__c candidate;
-        VacancyCandidateAssociation__c vca;
+        Vacancy__c Vacancy;
+        Candidate__c Candidate;
+        VacancyCandidateAssociation__c vacancyCandidateAssociation;
         List<Candidate__c> actualCandidate;
 
         System.runAs(manager) {
-            vacancy = new Vacancy__c(Responsible__c=recruiter.Id);
-            insert vacancy;
+            Vacancy = new Vacancy__c(Responsible__c=recruiter.Id);
+            insert Vacancy;
         }
         
         System.runAs(recruiter) {
             // Act            
-            candidate = new Candidate__c(Status__c='Validated By HR');
-            insert candidate;
+            Candidate = new Candidate__c(Status__c='Validated By HR');
+            insert Candidate;
         }
-        
-        //System.runAs(manager) {
-        //    // Act
-        //    actualCandidate = [SELECT Id FROM Candidate__c WHERE Id = :candidate.Id LIMIT 1];
-        //    System.assertEquals(0, actualCandidate.size());
-        //}
-        
+
         System.runAs(recruiter) {
-            vca = new VacancyCandidateAssociation__c(Candidate__c=candidate.Id, Vacancy__c=vacancy.Id);
-            insert vca;
+            vacancyCandidateAssociation = new VacancyCandidateAssociation__c(Candidate__c= Candidate.Id, Vacancy__c= Vacancy.Id);
+            insert vacancyCandidateAssociation;
         }
         
         System.runAs(manager) {
             // Act
-            actualCandidate = [SELECT Id FROM Candidate__c WHERE Id = :candidate.Id LIMIT 1];
+            actualCandidate = [SELECT Id FROM Candidate__c WHERE Id = :Candidate.Id LIMIT 1];
             System.assertEquals(1, actualCandidate.size());
             
             Test.startTest();
-            candidate.Status__c = 'Hired';
-            candidate.Vacancies__c = vacancy.Id;
-            update candidate;
+            Candidate.Status__c = 'Hired';
+            Candidate.Vacancies__c = Vacancy.Id;
+            update Candidate;
             
-            vacancy.Status__c='Closed';
-            vacancy.Candidate__c=candidate.Id;
-            update vacancy;
+            Vacancy.Status__c='Closed';
+            Vacancy.Candidate__c= Candidate.Id;
+            update Vacancy;
             
-            delete vca;
+            delete vacancyCandidateAssociation;
             Test.stopTest();
             
             // Act
-            actualCandidate = [SELECT Id FROM Candidate__c WHERE Id = :candidate.Id LIMIT 1];
+            actualCandidate = [SELECT Id FROM Candidate__c WHERE Id = :Candidate.Id LIMIT 1];
             System.assertEquals(1, actualCandidate.size());
         }
     }
